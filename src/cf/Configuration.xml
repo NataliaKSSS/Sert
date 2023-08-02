@@ -313,11 +313,15 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Финансы</Subsystem>
 			<Subsystem>ТоварныеЗапасы</Subsystem>
+			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<StyleItem>ЦветТекстаСущественныхИзмененийДанных</StyleItem>
 			<StyleItem>ЦветТекстаНормальногоСостояния</StyleItem>
 			<StyleItem>ЦветТекстаОшибочногоСостояния</StyleItem>
 			<StyleItem>ШрифтВажнойИнформации</StyleItem>
 			<StyleItem>ЦветТекстаВажнойИнформации</StyleItem>
+			<StyleItem>ВладелецФайловШрифт</StyleItem>
+			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
+			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<CommonPicture>Позвонить</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
 			<CommonPicture>ПодсистемаПродажи</CommonPicture>
@@ -338,6 +342,25 @@
 			<CommonPicture>ПланировщикПеренестиНаСледующийДень</CommonPicture>
 			<CommonPicture>Контрагент</CommonPicture>
 			<CommonPicture>NFC</CommonPicture>
+			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
+			<CommonPicture>ЗанятьФайл</CommonPicture>
+			<CommonPicture>Зашифрован</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>КоллекцияСкрепка</CommonPicture>
+			<CommonPicture>ОпубликоватьФайл</CommonPicture>
+			<CommonPicture>ОсвободитьФайл</CommonPicture>
+			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
+			<CommonPicture>ПапкаОблачногоСервиса</CommonPicture>
+			<CommonPicture>Папки</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>РабочийКаталогПоУмолчанию</CommonPicture>
+			<CommonPicture>РедактироватьФайл</CommonPicture>
+			<CommonPicture>Сканирование</CommonPicture>
+			<CommonPicture>СправкаВНачало</CommonPicture>
+			<CommonPicture>СправкаПереходВниз</CommonPicture>
+			<CommonPicture>СтрелкаВнизСправка</CommonPicture>
+			<CommonPicture>Фотокамера</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>ЯщикIMAP</SessionParameter>
 			<Role>Администратор</Role>
@@ -345,12 +368,17 @@
 			<Role>МенеджерПоПродажам</Role>
 			<Role>Продавец</Role>
 			<Role>ПользовательБот</Role>
+			<Role>ДобавлениеИзменениеПапокИФайлов</Role>
+			<Role>ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</Role>
+			<Role>НастройкаСинхронизацииФайлов</Role>
 			<CommonTemplate>ДрайверСканераШтрихкодов</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовWindows32</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовWindows64</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовLinux32</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовLinux64</CommonTemplate>
+			<CommonTemplate>КомпонентаTWAIN</CommonTemplate>
 			<FilterCriterion>ДокументыКонтрагента</FilterCriterion>
+			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>ОбменМобильныеОбщее</CommonModule>
 			<CommonModule>ОбменМобильныеПереопределяемый</CommonModule>
 			<CommonModule>ГлобальныйПоискКлиент</CommonModule>
@@ -373,23 +401,51 @@
 			<CommonModule>СистемаВзаимодействияКлиент</CommonModule>
 			<CommonModule>УведомленияКлиент</CommonModule>
 			<CommonModule>УведомленияСервер</CommonModule>
+			<CommonModule>РаботаСФайлами</CommonModule>
+			<CommonModule>РаботаСФайламиВТомахСлужебный</CommonModule>
+			<CommonModule>РаботаСФайламиКлиент</CommonModule>
+			<CommonModule>РаботаСФайламиКлиентПереопределяемый</CommonModule>
+			<CommonModule>РаботаСФайламиКлиентСервер</CommonModule>
+			<CommonModule>РаботаСФайламиПереопределяемый</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебный</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебныйВызовСервера</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебныйКлиент</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебныйКлиентПовтИсп</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>РаботаСФайламиСлужебныйПовтИсп</CommonModule>
 			<ExchangePlan>Мобильные</ExchangePlan>
 			<XDTOPackage>ОбменСМобильнымУстройством</XDTOPackage>
 			<WebService>MAExchange</WebService>
 			<HTTPService>Товары</HTTPService>
 			<HTTPService>ОписанияТоваров</HTTPService>
-			<ScheduledJob>ОбновлениеАгрегатовПродаж</ScheduledJob>
+			<EventSubscription>ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>ОбработкаПроверкиЗаполненияПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>СкопироватьРеквизитыВерсииФайловВФайл</EventSubscription>
+			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайлов</EventSubscription>
 			<ScheduledJob>ОбновлениеИндексаППД</ScheduledJob>
+			<ScheduledJob>ОбновлениеАгрегатовПродаж</ScheduledJob>
 			<ScheduledJob>ОбновлениеИсторииДанных</ScheduledJob>
 			<ScheduledJob>ОбработкаБотов</ScheduledJob>
 			<ScheduledJob>ПерестроениеАгрегатовПродаж</ScheduledJob>
 			<ScheduledJob>НеотработанныеЗаказы</ScheduledJob>
 			<ScheduledJob>СлияниеИндексаППД</ScheduledJob>
+			<ScheduledJob>ИзвлечениеТекста</ScheduledJob>
+			<ScheduledJob>ОчисткаНенужныхФайлов</ScheduledJob>
+			<ScheduledJob>СинхронизацияФайлов</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>УчетПоСкладам</FunctionalOption>
 			<FunctionalOption>РаботаСТорговымОборудованием</FunctionalOption>
 			<FunctionalOption>ВалютныйУчет</FunctionalOption>
+			<FunctionalOption>ИспользоватьСинхронизациюФайлов</FunctionalOption>
+			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
 			<FunctionalOptionsParameter>Организация</FunctionalOptionsParameter>
+			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
+			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
+			<DefinedType>ВладелецФайлов</DefinedType>
+			<DefinedType>ПрисоединенныйФайл</DefinedType>
+			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
 			<Bot>ОфисМенеджер</Bot>
 			<CommonCommand>УстановитьСканерШтрихкодов</CommonCommand>
 			<CommonCommand>НастроитьСканерШтрихКодов</CommonCommand>
@@ -399,14 +455,20 @@
 			<CommonCommand>ОбщиеНастройки</CommonCommand>
 			<CommonCommand>БотОфисМенеджер</CommonCommand>
 			<CommonCommand>ОстаткиТоваровНаСкладахКоманда</CommonCommand>
+			<CommonCommand>ВсеФайлы</CommonCommand>
+			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
+			<CommonCommand>РазместитьФайлыНачальногоОбраза</CommonCommand>
+			<CommonCommand>РедактируемыеФайлы</CommonCommand>
+			<CommonCommand>СозданиеНачальногоОбразаСФайлами</CommonCommand>
+			<CommonCommand>ФайлыВТоме</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Печать</CommandGroup>
 			<Constant>ВыборПровайдераГеопозиционирования</Constant>
 			<Constant>SSLPOP3</Constant>
-			<Constant>SSLSMTP</Constant>
 			<Constant>АдресIMAPСервера</Constant>
 			<Constant>АдресPOP3Сервера</Constant>
 			<Constant>АдресSMTPСервера</Constant>
+			<Constant>SSLSMTP</Constant>
 			<Constant>ВалютаУчета</Constant>
 			<Constant>SSLIMAP</Constant>
 			<Constant>ИмяПровайдера</Constant>
@@ -446,6 +508,22 @@
 			<Constant>ТолькоЗащищеннаяАутентификацияPOP3</Constant>
 			<Constant>ТолькоЗащищеннаяАутентификацияSMTP</Constant>
 			<Constant>ОтметкаНаФотоснимкеТекст</Constant>
+			<Constant>ЗапрещатьЗагрузкуФайловПоРасширению</Constant>
+			<Constant>ИзвлекатьТекстыФайловНаСервере</Constant>
+			<Constant>МаксимальныйРазмерФайла</Constant>
+			<Constant>МаксимальныйРазмерФайлаОбластиДанных</Constant>
+			<Constant>ПараметрыХраненияФайловВИБ</Constant>
+			<Constant>ПутьКТомуБезУчетаРегиональныхНастроек</Constant>
+			<Constant>РежимОчисткиФайлов</Constant>
+			<Constant>СинхронизироватьФайлы</Constant>
+			<Constant>СоздаватьПодкаталогиСИменамиВладельцев</Constant>
+			<Constant>СписокЗапрещенныхРасширений</Constant>
+			<Constant>СписокЗапрещенныхРасширенийОбластиДанных</Constant>
+			<Constant>СписокРасширенийТекстовыхФайлов</Constant>
+			<Constant>СписокРасширенийФайловOpenDocument</Constant>
+			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
+			<Constant>СпособХраненияФайлов</Constant>
+			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<CommonForm>ОбщиеНастройки</CommonForm>
 			<CommonForm>НастройкиМобильногоУстройства</CommonForm>
 			<CommonForm>НастройкаПочты</CommonForm>
@@ -455,6 +533,12 @@
 			<CommonForm>ФормаПодбораМобильная</CommonForm>
 			<CommonForm>Звонок</CommonForm>
 			<CommonForm>ФормаВыбораПользователяСистемыВзаимодействия</CommonForm>
+			<CommonForm>ВыборДействияПриОбнаруженииОтличийФайла</CommonForm>
+			<CommonForm>ВыборПутиКАрхивуФайловТомов</CommonForm>
+			<CommonForm>НапоминаниеПриРедактировании</CommonForm>
+			<CommonForm>НастройкаРабочегоКаталога</CommonForm>
+			<CommonForm>СозданиеНачальногоОбразаСФайлами</CommonForm>
+			<CommonForm>ФайлыВТоме</CommonForm>
 			<Catalog>Регионы</Catalog>
 			<Catalog>Банки</Catalog>
 			<Catalog>Склады</Catalog>
@@ -475,6 +559,11 @@
 			<Catalog>ИсходящиеПисьма</Catalog>
 			<Catalog>ХранилищеВариантовОтчетов</Catalog>
 			<Catalog>Встречи</Catalog>
+			<Catalog>ВерсииФайлов</Catalog>
+			<Catalog>ПапкиФайлов</Catalog>
+			<Catalog>ТомаХраненияФайлов</Catalog>
+			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
+			<Catalog>Файлы</Catalog>
 			<Document>Заказ</Document>
 			<Document>ОперацияПоУчетуТоваров</Document>
 			<Document>Оплата</Document>
@@ -491,6 +580,23 @@
 			<Enum>СостоянияЗаказов</Enum>
 			<Enum>НазначениеХарактеристик</Enum>
 			<Enum>ИспользоватьПровайдерГеопозиционирования</Enum>
+			<Enum>ВариантыОчисткиФайлов</Enum>
+			<Enum>ВариантыСжатияTIFF</Enum>
+			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
+			<Enum>ПериодОчисткиФайлов</Enum>
+			<Enum>РазмерыБумаги</Enum>
+			<Enum>РазрешенияСканированногоИзображения</Enum>
+			<Enum>РежимыОчисткиФайлов</Enum>
+			<Enum>СпособыОткрытияФайлаНаПросмотр</Enum>
+			<Enum>СпособыПоворотаИзображения</Enum>
+			<Enum>СпособыСравненияВерсийФайлов</Enum>
+			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
+			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
+			<Enum>ТипыХраненияФайлов</Enum>
+			<Enum>ФорматыСканированногоИзображения</Enum>
+			<Enum>ФорматыХраненияМногостраничныхФайлов</Enum>
+			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
+			<Enum>ЦветностиИзображения</Enum>
 			<Report>ВзаимосвязьПродажТоваров</Report>
 			<Report>ДашбордПродажи</Report>
 			<Report>ДинамикаПродаж</Report>
@@ -500,26 +606,43 @@
 			<Report>ПрайсЛист</Report>
 			<Report>АнализЗаказов</Report>
 			<Report>ОстаткиТоваровНаСкладахМобильный</Report>
+			<Report>ОбъемНенужныхФайлов</Report>
+			<Report>ПроверкаЦелостностиТома</Report>
+			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АдминистративныйСервис</DataProcessor>
-			<DataProcessor>ДемонстрацияВозможностейДиаграмм</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкиПользователя</DataProcessor>
 			<DataProcessor>ПроведениеДокументов</DataProcessor>
 			<DataProcessor>Путеводитель</DataProcessor>
 			<DataProcessor>РедактированиеЦен</DataProcessor>
 			<DataProcessor>СписокАктивныхПользователей</DataProcessor>
-			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
+			<DataProcessor>ДемонстрацияВозможностейДиаграмм</DataProcessor>
 			<DataProcessor>УправлениеАгрегатамиПродаж</DataProcessor>
 			<DataProcessor>УправлениеНастройкамиФорм</DataProcessor>
 			<DataProcessor>УправлениеПолнотекстовымПоиском</DataProcessor>
-			<DataProcessor>УправлениеСистемойВзаимодействия</DataProcessor>
+			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>ЭлектроннаяПочта</DataProcessor>
+			<DataProcessor>УправлениеСистемойВзаимодействия</DataProcessor>
+			<DataProcessor>ПереносФайлов</DataProcessor>
+			<DataProcessor>РаботаСФайлами</DataProcessor>
+			<DataProcessor>Сканирование</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ЦеныТоваров</InformationRegister>
 			<InformationRegister>СостояниеВходящихПисем</InformationRegister>
 			<InformationRegister>СостояниеИсходящихПисем</InformationRegister>
 			<InformationRegister>Характеристики</InformationRegister>
 			<InformationRegister>МобильныеОтчеты</InformationRegister>
+			<InformationRegister>ДвоичныеДанныеФайлов</InformationRegister>
+			<InformationRegister>КодировкиФайлов</InformationRegister>
+			<InformationRegister>НаличиеФайлов</InformationRegister>
+			<InformationRegister>НастройкиОчисткиФайлов</InformationRegister>
+			<InformationRegister>НастройкиСинхронизацииФайлов</InformationRegister>
+			<InformationRegister>НомераОтсканированныхФайлов</InformationRegister>
+			<InformationRegister>РабочиеКаталогиФайлов</InformationRegister>
+			<InformationRegister>СведенияОФайлах</InformationRegister>
+			<InformationRegister>СтатусыСинхронизацииФайловСОблачнымСервисом</InformationRegister>
+			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
+			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварныеЗапасы</AccumulationRegister>
