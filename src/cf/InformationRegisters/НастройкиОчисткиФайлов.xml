@@ -38,10 +38,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки очистки файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File cleanup settings</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -182,10 +178,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правило отбора</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Filter rule</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -198,10 +190,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Компоновщик с настройками отбора</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Composer with filter settings.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -234,10 +222,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действие</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Action</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -250,10 +234,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант очистки файлов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File cleanup option.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -286,10 +266,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Period</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -302,10 +278,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период очистки файлов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File cleanup period.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -338,10 +310,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это файл</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>This is a file</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -354,10 +322,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Определяет к какой подсистеме относится файл (служебный реквизит)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Defines the subsystem the file belongs to. An internal attribute.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -390,10 +354,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Owner</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 невозможно объединить 2 составных типа</Comment>
 					<Type>
@@ -413,10 +373,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя владельца файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The name of the metadata object the file is attached to.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -452,18 +408,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип владельца файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File location type</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -472,10 +420,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя справочника владельца файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The name of the file owner catalog.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -505,7 +449,7 @@
 			</Dimension>
 			<Form>ФормаЗаписи</Form>
 			<Form>ФормаСписка</Form>
-			<Form>ФормаДобавленияУсловияПоДате</Form>
+			<Form>ДобавлениеУсловияПоДате</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

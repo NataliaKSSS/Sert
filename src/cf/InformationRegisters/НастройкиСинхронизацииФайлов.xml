@@ -38,15 +38,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки синхронизации файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File synchronization settings</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.ФормаЗаписиНастройки</DefaultRecordForm>
+			<DefaultRecordForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.ФормаЗаписи</DefaultRecordForm>
 			<DefaultListForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.НастройкиСинхронизацииФайлов</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
@@ -182,10 +178,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правило отбора</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Filter rule</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -198,10 +190,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Компоновщик с настройками отбора</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Composer with filter settings</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -233,10 +221,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизировать</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Synchronize</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -277,10 +261,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это файл</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>This is a file</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -319,10 +299,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -367,10 +343,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Owner</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 невозможно объединить 2 составных типа</Comment>
 					<Type>
@@ -386,10 +358,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя владельца файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The name of the metadata object the file is attached to.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -425,18 +393,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип владельца файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File location type</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -445,10 +405,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя справочника владельца файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The name of the file owner catalog.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -483,10 +439,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Account</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -523,8 +475,8 @@
 				</Properties>
 			</Dimension>
 			<Form>НастройкиСинхронизацииФайлов</Form>
-			<Form>ДобавленияУсловияПоДате</Form>
-			<Form>ФормаЗаписиНастройки</Form>
+			<Form>ДобавлениеУсловияПоДате</Form>
+			<Form>ФормаЗаписи</Form>
 			<Form>ПростаяФормаЗаписиНастройки</Form>
 		</ChildObjects>
 	</InformationRegister>

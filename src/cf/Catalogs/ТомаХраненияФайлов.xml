@@ -30,12 +30,8 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тома хранения файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File storage volumes</v8:content>
-				</v8:item>
 			</Synonym>
-			<Comment>Каталоги на диске для хранения файлов</Comment>
+			<Comment>Сетевые каталоги для хранения файлов</Comment>
 			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
@@ -247,10 +243,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
-						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -281,10 +273,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Code</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -338,10 +326,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Том хранения файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File storage volume</v8:content>
-				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -362,10 +346,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Comment</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -382,10 +362,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание тома</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The volume details.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -419,10 +395,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предел, МБ</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Max size (MB)</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -440,10 +412,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер всех файлов в томе в мегабайтах.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The total size of the files in the volume in MB.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -477,10 +445,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный путь linux</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Full path on Linux</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -497,10 +461,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный путь в Linux</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Full path on Linux</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -534,10 +494,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный путь windows</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Full path on Windows</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -554,10 +510,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный путь в UNC формате</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The fill UNC path.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -591,10 +543,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядок</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Order</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -613,11 +561,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядок заполнения томов файлами,
 начиная с наименьшего значения.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The order of filling volumes with files,
-the smallest value first.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -650,10 +593,6 @@ the smallest value first.</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время последней очистки файлов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Last file cleanup time</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

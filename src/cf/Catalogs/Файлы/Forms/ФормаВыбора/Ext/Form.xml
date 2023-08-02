@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбор файла</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Select file</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -37,10 +33,6 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Добавить файл</v8:content>
 					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Add file</v8:content>
-					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ДобавитьФайлExtendedTooltip" id="65"/>
 			</Button>
@@ -52,10 +44,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Открыть карточку</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Open card</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ИзменитьExtendedTooltip" id="47"/>
@@ -90,10 +78,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>User settings group</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -105,10 +89,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Списки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Lists</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -138,12 +118,8 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Папки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Folders</v8:content>
-						</v8:item>
 					</Title>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -198,10 +174,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка и наименование папок</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Picture and folders descriptions</v8:content>
-								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="КартинкаИНаименованиеПапокExtendedTooltip" id="51"/>
@@ -212,10 +184,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Индекс картинки</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Picture index</v8:content>
 										</v8:item>
 									</Title>
 									<ValuesPicture>
@@ -232,10 +200,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Папка</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Folder</v8:content>
 										</v8:item>
 									</Title>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -275,17 +239,13 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>List</v8:content>
-						</v8:item>
 					</Title>
 					<CommandSet>
 						<ExcludedCommand>Copy</ExcludedCommand>
 						<ExcludedCommand>Delete</ExcludedCommand>
 						<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 					</CommandSet>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<AutoRefresh>false</AutoRefresh>
@@ -318,10 +278,6 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Открыть карточку</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Open card</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="76"/>
@@ -376,20 +332,12 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер картинки</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Picture index</v8:content>
-								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наличие электронной подписи или шифрования</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Indicates whether the file is digitally signed or encrypted.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<HeaderPicture>
@@ -410,10 +358,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа картинка и наименование</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Group picture and description</v8:content>
 								</v8:item>
 							</Title>
 							<Group>InCell</Group>
@@ -443,10 +387,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Наименование</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Description</v8:content>
 										</v8:item>
 									</Title>
 									<AutoCellHeight>true</AutoCellHeight>
@@ -573,10 +513,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папки</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Folders</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -634,10 +570,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Add file</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>

@@ -38,10 +38,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Файлы в рабочем каталоге</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files in working directory</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -182,10 +178,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Path</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -202,10 +194,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Относительный путь к файлу (путь к рабочему каталогу сюда не входит)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The relative path to the file (path to the working directory not included).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -238,10 +226,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Size</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -259,10 +243,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер файла в байтах</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file size in bytes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -295,10 +275,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата помещения в рабочий каталог</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date stored to working directory</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -314,10 +290,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата помещения файла в рабочий каталог</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The date when the file was stored to the working directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -350,10 +322,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>На чтение</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Read-only</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -366,10 +334,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл помещен на чтение</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The stored file is read-only.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -402,10 +366,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>В рабочем каталоге владельца</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>In working directory of the owner</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -419,11 +379,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Включено - файл находится в рабочем каталоге владельца (папки),
 Выключено - файл находится в рабочем каталоге пользователя.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>If enabled, the file is stored in the working directory of its owner (folder).
-If disabled, the file is stored in the user's working directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -456,10 +411,6 @@ If disabled, the file is stored in the user's working directory.</v8:content>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -472,10 +423,6 @@ If disabled, the file is stored in the user's working directory.</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File version</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -511,13 +458,10 @@ If disabled, the file is stored in the user's working directory.</v8:content>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>User</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -527,10 +471,6 @@ If disabled, the file is stored in the user's working directory.</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, который получил файл в свой рабочий каталог</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The user that retrieved the file to their working directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

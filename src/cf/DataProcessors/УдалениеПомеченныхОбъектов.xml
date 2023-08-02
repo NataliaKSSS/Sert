@@ -19,16 +19,49 @@
 					<v8:content>Удаление помеченных объектов</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Поиск и удаление объектов, помеченных на удаление</Comment>
+			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>DataProcessor.УдалениеПомеченныхОбъектов.Form.ОсновнаяФорма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<ExtendedPresentation/>
-			<Explanation/>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск и удаление объектов, предварительно помеченных на удаление</v8:content>
+				</v8:item>
+			</Explanation>
 		</Properties>
 		<ChildObjects>
 			<Form>ОсновнаяФорма</Form>
+			<Form>НастройкиУдаленияОбъектов</Form>
+			<Form>ВыборОбъектовМетаданныхПоПодсистемам</Form>
+			<Command uuid="e62e60ea-9f0c-4a7e-869f-4639f31f826c">
+				<Properties>
+					<Name>УдалениеПомеченныхОбъектов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удаление помеченных объектов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск и удаление объектов, предварительно помеченных на удаление</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

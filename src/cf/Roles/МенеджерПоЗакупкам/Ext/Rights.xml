@@ -2575,7 +2575,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ДемонстрационноеПриложение</name>
+		<name>Configuration.ПроектнаяРаботаOtus</name>
 		<right>
 			<name>UpdateDataBaseConfiguration</name>
 			<value>true</value>

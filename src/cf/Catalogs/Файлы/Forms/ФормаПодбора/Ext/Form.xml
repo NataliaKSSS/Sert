@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Подбор файлов</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Select files</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -54,10 +50,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>User settings group</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -69,10 +61,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Списки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Lists</v8:content>
 				</v8:item>
 			</Title>
 			<Height>10</Height>
@@ -103,12 +91,8 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Папки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Folders</v8:content>
-						</v8:item>
 					</Title>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -163,10 +147,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка и наименование папок</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Picture and folders descriptions</v8:content>
-								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="КартинкаИНаименованиеПапокExtendedTooltip" id="47"/>
@@ -177,10 +157,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Индекс картинки</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Picture index</v8:content>
 										</v8:item>
 									</Title>
 									<ValuesPicture>
@@ -197,10 +173,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Папка</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Folder</v8:content>
 										</v8:item>
 									</Title>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -234,7 +206,7 @@
 					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>Список</DataPath>
 					<BorderColor>style:BorderColor</BorderColor>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<AutoRefresh>false</AutoRefresh>
@@ -291,10 +263,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка и наименование</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Picture and description</v8:content>
-								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="КартинкаИНаименованиеExtendedTooltip" id="51"/>
@@ -324,10 +292,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Наименование</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Description</v8:content>
 										</v8:item>
 									</Title>
 									<AutoCellHeight>true</AutoCellHeight>
@@ -438,10 +402,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Folders</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

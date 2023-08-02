@@ -18,10 +18,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автоматическое извлечение текстов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Extract text automatically</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -40,10 +36,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автоматическое извлечение текстов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Extract text automatically</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

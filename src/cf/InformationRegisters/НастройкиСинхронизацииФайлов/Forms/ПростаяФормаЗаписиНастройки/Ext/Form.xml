@@ -40,10 +40,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать файлы с облачным сервисом:</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize files with cloud service:</v8:content>
-				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<CheckBoxType>Auto</CheckBoxType>
@@ -59,15 +55,17 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Укажите учетную запись облачного сервиса, с которым будет производиться синхронизация файлов.</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Specify the cloud service account.</v8:content>
-				</v8:item>
 			</ToolTip>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 			<Width>40</Width>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<CreateButton>true</CreateButton>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите из списка</v8:content>
+				</v8:item>
+			</InputHint>
 			<ContextMenu name="УчетнаяЗаписьКонтекстноеМеню" id="119"/>
 			<ExtendedTooltip name="УчетнаяЗаписьРасширеннаяПодсказка" id="120">
 				<AutoMaxWidth>false</AutoMaxWidth>
@@ -75,10 +73,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Укажите учетную запись облачного сервиса, с которым будет производиться синхронизация файлов.</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Specify the cloud service account.</v8:content>
 					</v8:item>
 				</Title>
 			</ExtendedTooltip>

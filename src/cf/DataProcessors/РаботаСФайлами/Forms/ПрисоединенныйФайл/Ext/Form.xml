@@ -31,10 +31,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Command bar</v8:content>
-				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="274"/>
 			<ChildItems>
@@ -74,10 +70,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Print</v8:content>
-						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="206"/>
 					<ChildItems>
@@ -98,10 +90,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файловые функции</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File functions</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаФайловыеФункцииExtendedTooltip" id="62"/>
@@ -127,10 +115,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма глобальные команды</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Global commands form</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -160,10 +144,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма группа дополнительные команды</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Form additional commands group</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -211,10 +191,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Электронная подпись и шифрование</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Electronic signature and encryption</v8:content>
-						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.ПодписанЗашифрованЗаголовок</xr:Ref>
@@ -228,10 +204,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Форма группа команд электронная подпись</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Form electronic signature command group</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаГруппаКомандЭлектроннаяПодписьРасширеннаяПодсказка" id="130"/>
@@ -259,10 +231,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Форма группа команд шифрование</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Form encryption command group</v8:content>
-								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаГруппаКомандШифрованиеРасширеннаяПодсказка" id="74"/>
 							<ChildItems>
@@ -286,10 +254,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Reports</v8:content>
-						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.Report</xr:Ref>
@@ -304,11 +268,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполнить</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Fill in</v8:content>
-						</v8:item>
 					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
 					<Representation>Picture</Representation>
 					<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="280"/>
 					<ChildItems>
@@ -317,10 +281,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю заполнить важное</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Submenu fill in important</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюЗаполнитьВажноеРасширеннаяПодсказка" id="282"/>
@@ -331,10 +291,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю заполнить обычное</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Submenu fill in normal</v8:content>
-								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюЗаполнитьОбычноеРасширеннаяПодсказка" id="284"/>
 						</ButtonGroup>
@@ -343,10 +299,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю заполнить см также</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Submenu fill in see also</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюЗаполнитьСмТакжеРасширеннаяПодсказка" id="286"/>
@@ -358,10 +310,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Создать на основании</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -379,10 +327,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пояснение облачного сервиса</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cloud service note</v8:content>
-				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<VerticalAlign>Center</VerticalAlign>
@@ -397,10 +341,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация картинка облачного сервиса</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Cloud service picture decoration</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -418,10 +358,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл доступен только для просмотра, работа с ним ведется в облачном сервисе %1.  </v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>This is a read-only file. It is stored in cloud service %1.</v8:content>
-						</v8:item>
 					</Title>
 					<VerticalAlign>Center</VerticalAlign>
 					<ContextMenu name="ДекорацияПояснениеКонтекстноеМеню" id="221"/>
@@ -433,21 +369,17 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Неудачная синхронизация файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File synchronization failed</v8:content>
-						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Последняя синхронизация файла не удалась из-за возможных проблем с облачным сервисом, подключением к интернету или других проблем. Подробнее см. Журнал регистрации.</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The last file synchronization failed. Possible reasons: cloud service issues, Internet connection issues, or other issues. See the Event log for details.</v8:content>
-						</v8:item>
 					</ToolTip>
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ДекорацияКартинкаСтатусСинхронизацииКонтекстноеМеню" id="227"/>
 					<ExtendedTooltip name="ДекорацияКартинкаСтатусСинхронизацииРасширеннаяПодсказка" id="228"/>
@@ -457,10 +389,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизирован: %2</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Synchronized on: %2</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияДатаСинхронизацииКонтекстноеМеню" id="224"/>
@@ -479,10 +407,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Служебный файл доступен только для просмотра.</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>This is a read-only system file.</v8:content>
-				</v8:item>
 			</Title>
 			<VerticalAlign>Center</VerticalAlign>
 			<BackColor>style:ToolTipBackColor</BackColor>
@@ -496,10 +420,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя файла (без расширения)</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>The file name (without extension).</v8:content>
-				</v8:item>
 			</ToolTip>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="Наименование0КонтекстноеМеню" id="103"/>
@@ -510,10 +430,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общая информация о файле</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>General file information.</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -526,10 +442,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Commands</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -571,10 +483,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Общие данные и характеристики</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>General data and characteristics</v8:content>
-						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -590,10 +498,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Краткое описание файла</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Brief information about the file.</v8:content>
-								</v8:item>
 							</ToolTip>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>2</Height>
@@ -604,10 +508,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Краткое пояснение. Для редактирования содержимого файла нажмите кнопку Редактировать.</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>A brief description. To edit the file, click Edit.</v8:content>
-								</v8:item>
 							</InputHint>
 							<ContextMenu name="Описание0КонтекстноеМеню" id="106"/>
 							<ExtendedTooltip name="Описание0РасширеннаяПодсказка" id="107"/>
@@ -617,10 +517,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Общие данные</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>General data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -635,10 +531,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные сведения</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Additional information</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -655,19 +547,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Создан</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Date created</v8:content>
-										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата добавления файла в список</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Date when the author added the file.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ДатаСозданияФайлаКонтекстноеМеню" id="249"/>
@@ -681,19 +565,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Изменен</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Modified on</v8:content>
-										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата изменения данных файла (местное время)</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Local date and time when the file version was modified.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ДатаМодификацииФайлаКонтекстноеМеню" id="252"/>
@@ -704,10 +580,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Размер с декорацией</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Size with decoration</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -723,19 +595,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Размер</v8:content>
 												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Size</v8:content>
-												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Размер файла</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>The file size.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ContextMenu name="РазмерФайлаКонтекстноеМеню" id="257"/>
@@ -746,10 +610,6 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>байт</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>bytes</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияБайтХарактеристикиКонтекстноеМеню" id="260"/>
@@ -762,10 +622,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расширение файла</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>The file extension.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -781,10 +637,6 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширение файла</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>The file extension.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ContextMenu name="РасширениеФайлаКонтекстноеМеню" id="265"/>
@@ -827,10 +679,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные данные</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Additional data</v8:content>
-				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаДополнительныеДанныеСтраницыExtendedTooltip" id="78"/>
@@ -844,10 +692,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сведения о файле</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File properties</v8:content>
-						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ГруппаСведенияОФайлеExtendedTooltip" id="79"/>
@@ -857,10 +701,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основные сведения</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Main additional data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -877,10 +717,6 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пользователь, который добавил файл в список</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>User who added the file.</v8:content>
-										</v8:item>
 									</ToolTip>
 									<ContextMenu name="Автор0КонтекстноеМеню" id="109"/>
 									<ExtendedTooltip name="Автор0РасширеннаяПодсказка" id="110"/>
@@ -893,19 +729,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отредактировал</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Edited by</v8:content>
-										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Последний пользователь, который отредактировал файл</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>User who last edited the file.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="Изменил0КонтекстноеМеню" id="112"/>
@@ -916,10 +744,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Редактирует</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Locked by</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -942,10 +766,6 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>с</v8:content>
 												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>on</v8:content>
-												</v8:item>
 											</Title>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДатаЗаема0КонтекстноеМеню" id="203"/>
@@ -961,10 +781,6 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Размещение</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Location</v8:content>
-										</v8:item>
 									</Title>
 									<ContextMenu name="ВладелецФайла0КонтекстноеМеню" id="174"/>
 									<ExtendedTooltip name="ВладелецФайла0РасширеннаяПодсказка" id="175"/>
@@ -975,10 +791,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Хранить версии</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Track versions</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -1003,10 +815,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные сведения</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Additional information</v8:content>
-								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -1022,19 +830,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Создан</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Date created</v8:content>
-										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата добавления файла в список</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Date when the author added the file.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ДатаСоздания0КонтекстноеМеню" id="127"/>
@@ -1048,19 +848,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Изменен</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Modified on</v8:content>
-										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата изменения данных файла (местное время)</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Local date and time when the file version was modified.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ДатаМодификацииКонтекстноеМеню" id="124"/>
@@ -1071,10 +863,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Размер с декорацией</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Size with decoration</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -1090,19 +878,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Размер</v8:content>
 												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Size</v8:content>
-												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Размер файла</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>The file size.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ContextMenu name="Размер0КонтекстноеМеню" id="121"/>
@@ -1113,10 +893,6 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>байт</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>bytes</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияБайтКонтекстноеМеню" id="195"/>
@@ -1129,10 +905,6 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расширение файла</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>The file extension.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -1148,10 +920,6 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширение файла</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>The file extension.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ContextMenu name="Расширение0КонтекстноеМеню" id="115"/>
@@ -1192,10 +960,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Электронные подписи</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Electronic signatures</v8:content>
-						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
 					<ExtendedTooltip name="ГруппаЭлектронныеПодписиРасширеннаяПодсказка" id="82"/>
@@ -1213,10 +977,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Электронные подписи</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Electronic signatures</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -1274,6 +1034,20 @@
 										<CommandName>Form.Command.ПродлитьДействиеПодписей</CommandName>
 										<ExtendedTooltip name="ЭлектронныеПодписиПродлитьДействиеПодписейРасширеннаяПодсказка" id="293"/>
 									</Button>
+									<SearchStringAddition name="СтрокаПоискаЭлектронныеПодписи" id="294">
+										<AdditionSource>
+											<Item>ЭлектронныеПодписи</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоискаЭлектронныеПодписиКонтекстноеМеню" id="295"/>
+										<ExtendedTooltip name="СтрокаПоискаЭлектронныеПодписиРасширеннаяПодсказка" id="296"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ЭлектронныеПодписиРасширеннаяПодсказка" id="89"/>
@@ -1330,10 +1104,6 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Электронные подписи проверка</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Electronic signatures validation</v8:content>
-										</v8:item>
 									</Title>
 									<Height>2</Height>
 									<Group>InCell</Group>
@@ -1378,10 +1148,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Решение типовых проблем при работе с программами электронной подписи</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Solving typical issues with digital signature applications</v8:content>
-								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
 							<ContextMenu name="ИнструкцияКонтекстноеМеню" id="187"/>
@@ -1397,10 +1163,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешено расшифровывать</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Decryption allowed</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -1425,10 +1187,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сертификаты</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Certificates</v8:content>
-								</v8:item>
 							</Title>
 							<CommandSet>
 								<ExcludedCommand>Change</ExcludedCommand>
@@ -1446,6 +1204,20 @@
 										<CommandName>Form.Command.ОткрытьСертификатШифрования</CommandName>
 										<ExtendedTooltip name="СертификатыШифрованияОткрытьРасширеннаяПодсказка" id="95"/>
 									</Button>
+									<SearchStringAddition name="СтрокаПоискаСертификатыШифрования" id="297">
+										<AdditionSource>
+											<Item>СертификатыШифрования</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоискаСертификатыШифрованияКонтекстноеМеню" id="298"/>
+										<ExtendedTooltip name="СтрокаПоискаСертификатыШифрованияРасширеннаяПодсказка" id="299"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="СертификатыШифрованияExtendedTooltip" id="96"/>
@@ -1493,10 +1265,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительно</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>More</v8:content>
-						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="172"/>
 				</Page>
@@ -1510,10 +1278,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата модификации</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Date modified</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -1525,7 +1289,7 @@
 		</Attribute>
 		<Attribute name="ЗначениеКопирования" id="2">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="ИмяСправочника" id="3">
@@ -1539,6 +1303,7 @@
 		</Attribute>
 		<Attribute name="ТекущийПользователь" id="4">
 			<Type>
+				<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
 				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 			</Type>
 		</Attribute>
@@ -1547,10 +1312,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Электронные подписи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Electronic signatures</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1562,10 +1323,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор подписи</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Signed by</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1582,10 +1339,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата подписи</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date signed</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -1599,10 +1352,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1619,10 +1368,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Статус</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Status</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1634,7 +1379,7 @@
 				</Column>
 				<Column name="Объект" id="5">
 					<Type>
-						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Column>
 				<Column name="АдресПодписи" id="6">
@@ -1680,10 +1425,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата проверки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date submitted</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -1708,10 +1449,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание ошибки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Error details</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1726,10 +1463,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип подписи</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Signature type</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1756,10 +1489,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сертификаты шифрования</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Encryption certificates</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1779,10 +1508,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1833,10 +1558,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1852,10 +1573,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Details</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1870,10 +1587,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Author</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1891,10 +1604,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Extension</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1909,10 +1618,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Редактирует</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Locked by</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1933,10 +1638,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер (байт)</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Size (bytes)</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1953,13 +1654,9 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Location</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
-						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Column>
 				<Column name="ХранитьВерсии" id="10">
@@ -1967,10 +1664,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранить версии</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Track versions</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1982,10 +1675,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс картинки</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Picture index</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2005,10 +1694,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата заема</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date locked</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2035,10 +1720,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кодировка</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Encoding</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2105,19 +1786,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save and close</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект и закрыть форму</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2133,19 +1806,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+S</Shortcut>
@@ -2162,19 +1827,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перечитать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Refresh</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стандартная перечитать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Standard refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2190,19 +1847,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Copy</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Copy</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F9</Shortcut>
@@ -2219,19 +1868,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить на удаление / Снять пометку</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Mark/Unmark for deletion</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить на удаление / Снять пометку</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Mark/Unmark for deletion</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2247,19 +1888,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подписать...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Sign...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подписать файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Sign file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подписать</Action>
@@ -2272,19 +1905,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Просмотреть</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>View</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл для просмотра</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open the file for viewing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2301,21 +1926,17 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save as...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить файл на диск или другое устройство</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the file to a hard drive or another device.</v8:content>
+					<v8:content>Сохранить файл на компьютер или другое устройство</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СохранитьФайлКак</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>СохранитьКак</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2326,19 +1947,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог файла</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open file directory</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог файла</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open file directory</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьКаталогФайла</Action>
@@ -2350,19 +1963,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Edit</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Занять файл и открыть для редактирования</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Lock the file and open it for editing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F4</Shortcut>
@@ -2380,19 +1985,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закончить редактирование</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Commit</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить и освободить файл в информационной базе</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the file and release it in the infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2409,19 +2006,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить редактирование</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cancel editing</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Освободить занятый файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Release a locked file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2438,19 +2027,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить электронную подпись из файла...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Add electronic signature from file...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить электронную подпись из файла</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Add electronic signature from file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьЭПИзФайла</Action>
@@ -2462,19 +2043,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зашифровать...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Encrypt...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зашифровать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Encrypt</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2490,19 +2063,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расшифровать...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Decrypt...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расшифровать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Decrypt</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Расшифровать</Action>
@@ -2514,19 +2079,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить вместе с электронной подписью...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save with electronic signature...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить файл на диск или другое устройство вместе с электронной подписью</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the file to a hard drive or another device with a electronic signature.</v8:content>
+					<v8:content>Сохранить файл на компьютер или другое устройство вместе с электронной подписью</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВместеСЭП</Action>
@@ -2536,21 +2093,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Update from file on hard drive...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Update from a file on a hard drive.</v8:content>
+					<v8:content>Обновить из файла на компьютере</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьИзФайлаНаДиске</Action>
@@ -2563,19 +2112,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть подпись</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open the signature.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаЭПСписокОткрытьПодпись</Action>
@@ -2587,19 +2128,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Validate</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить выделенные подписи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Validate the selected signatures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьЭП</Action>
@@ -2611,19 +2144,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить выделенные подписи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete the selected signatures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьЭП</Action>
@@ -2635,19 +2160,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить все</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Validate all</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить все подписи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Validate all signatures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьВсе</Action>
@@ -2659,19 +2176,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить подпись в файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the signature to file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьПодпись</Action>
@@ -2683,19 +2192,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть сертификат</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open certificate</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть сертификат</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open the certificate.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСертификатШифрования</Action>
@@ -2707,19 +2208,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать в списке</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Show in list</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать в списке</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Show in list</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2735,19 +2228,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить изменения</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save changes</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить измененный файл в информационной базе</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save the modified file to the infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2765,19 +2250,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сразу на принтер</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Quick print</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Печать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Print</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2794,19 +2271,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Со штампом электронной подписи...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>With electronic signature stamp...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Печать со штампом электронной подписи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Print with a electronic signature stamp.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПечатьСоШтампом</Action>
@@ -2818,21 +2287,17 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Send</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Send</v8:content>
-				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>Отправить</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2843,19 +2308,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Занять</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Lock</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить файл как занятый для редактирования</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Mark the file as locked for editing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2873,19 +2330,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить данные файла</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete file data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2901,19 +2350,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продлить действие...</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Renew signature...</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продлить действие подписей</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Extend signature validity period</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродлитьДействиеПодписей</Action>
@@ -2922,13 +2363,13 @@
 	<Parameters>
 		<Parameter name="Ключ">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
 		<Parameter name="ЗначениеКопирования">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
@@ -2939,7 +2380,7 @@
 		</Parameter>
 		<Parameter name="ПрисоединенныйФайл">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
@@ -2954,7 +2395,7 @@
 		</Parameter>
 		<Parameter name="ВладелецФайла">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 		</Parameter>
 		<Parameter name="РежимСоздания">

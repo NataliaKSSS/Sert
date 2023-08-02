@@ -14,10 +14,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Владелец файла</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Location</v8:content>
-				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -27,10 +23,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все файлы (Мб)</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>All files (MB)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -49,10 +41,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ненужные файлы (Мб)</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Unused files (MB)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -74,10 +62,6 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Владелец файла</v8:content>
 					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Location</v8:content>
-					</v8:item>
 				</title>
 			</field>
 			<field xsi:type="DataSetFieldField">
@@ -87,10 +71,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Объем всего</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Total size</v8:content>
 					</v8:item>
 				</title>
 				<valueType>
@@ -115,10 +95,6 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Владелец файла</v8:content>
 					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Location</v8:content>
-					</v8:item>
 				</title>
 			</field>
 			<field xsi:type="DataSetFieldField">
@@ -128,10 +104,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Объем ненужных файлов</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Total size of obsolete files</v8:content>
 					</v8:item>
 				</title>
 				<valueType>
@@ -154,10 +126,6 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Нужные файлы (Мб)</v8:content>
-			</v8:item>
-			<v8:item>
-				<v8:lang>en</v8:lang>
-				<v8:content>Used files (MB)</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -193,10 +161,6 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Объем ненужных файлов по владельцам (Первые 10)</v8:content>
-			</v8:item>
-			<v8:item>
-				<v8:lang>en</v8:lang>
-				<v8:content>Unused file size by owners (Top 10)</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -241,10 +205,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объем ненужных файлов по владельцам (Первые 10)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Unused file size by owners (Top 10)</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>

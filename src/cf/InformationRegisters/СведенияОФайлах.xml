@@ -38,10 +38,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о файлах</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File properties</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -182,13 +178,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Author</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.УчетныеЗаписиСинхронизацииФайлов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
@@ -199,10 +192,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, который добавил файл в список</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>User who added the file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -235,10 +224,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date created</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -254,10 +239,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата добавления файла в список</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date when the author added the file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -290,10 +271,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размещение</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Location</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -306,10 +283,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Место размещения файла (папка или другой объект)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The name of the metadata object the file is attached to.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -342,10 +315,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс картинки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Picture index</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -363,10 +332,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс значка файла (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Index of the file icon. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -398,10 +363,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер картинки подписан зашифрован</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Signed-and-encrypted picture number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -447,10 +408,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -494,10 +451,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Details</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -514,10 +467,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое описание файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Brief information about the file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -549,10 +498,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка удаления</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Deletion mark</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -593,10 +538,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер (байт)</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Size (bytes)</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -614,10 +555,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер файла в байтах</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file size in bytes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -650,10 +587,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Extension</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -670,10 +603,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file extension.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -706,10 +635,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Редактирует</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Locked by</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -723,10 +648,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, который занял файл для редактирования</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>User who has locked the file for editing.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -759,10 +680,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Служебный</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Is internal</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -775,10 +692,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что файл является служебным</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Indicates that the file is an internal one.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -811,10 +724,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип хранения файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File storage type</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -827,10 +736,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип хранения файла (в томе или в информационной базе)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Where the file is stored: in a volume or in the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -862,10 +767,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранить версии</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Track versions</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -906,10 +807,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -922,10 +819,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Присоединенный файл, к которому относятся данные</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The attachment that contains the data.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

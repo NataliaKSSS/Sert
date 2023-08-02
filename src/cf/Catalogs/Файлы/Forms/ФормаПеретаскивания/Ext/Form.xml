@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Загрузка файлов </v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Upload files</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -27,10 +23,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Файлы</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -44,10 +36,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Title</v8:content>
-						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -60,10 +48,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Файлы</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Files</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьФайлыКонтекстноеМеню" id="28"/>
@@ -89,12 +73,8 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дерево файлов</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File tree</v8:content>
-						</v8:item>
 					</Title>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<ContextMenu name="ДеревоФайловКонтекстноеМеню" id="32"/>
@@ -130,10 +110,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка и наименование</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Picture and description</v8:content>
 								</v8:item>
 							</Title>
 							<Group>InCell</Group>
@@ -181,10 +157,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Folder</v8:content>
-				</v8:item>
 			</Title>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 			<Wrap>false</Wrap>
@@ -206,10 +178,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Реквизиты файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File attributes</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -223,10 +191,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание для создаваемых файлов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -253,10 +217,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кодировка</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Encoding</v8:content>
-				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -269,10 +229,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кодировка текстовых файлов:</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Text file encoding:</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияКодировкаКонтекстноеМеню" id="45"/>
@@ -290,10 +246,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная командная панель</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Main command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -329,10 +281,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Comment</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -347,10 +295,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалять файлы после добавления</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete files after adding</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -368,10 +312,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хранить версии</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Track versions</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -382,10 +322,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Надпись файлы</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files label</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -408,10 +344,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File tree</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -422,10 +354,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File name</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -451,10 +379,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс картинки</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Picture index</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -471,10 +395,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Mark</v8:content>
-						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -487,10 +407,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка для добавления</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Folder to add files to</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -523,19 +439,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить файлы</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Upload files</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузка файлов</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Upload files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьФайлы</Action>
@@ -547,19 +455,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать кодировку</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Select encoding</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать кодировку</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Select encoding</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКодировку</Action>

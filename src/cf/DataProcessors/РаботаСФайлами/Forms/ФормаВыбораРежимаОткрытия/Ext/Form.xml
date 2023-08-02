@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Как открыть файл?</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Open file</v8:content>
-		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Bottom</CommandBarLocation>
@@ -50,10 +46,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим открытия</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Opening mode</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -67,10 +59,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выберите режим открытия файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Select file opening mode</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Top</TitleLocation>
@@ -86,10 +74,6 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Только для просмотра</v8:content>
 									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Read-only</v8:content>
-									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">0</Value>
 							</xr:Value>
@@ -102,10 +86,6 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Для редактирования</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Editing</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">1</Value>
@@ -132,10 +112,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель мобильный клиент</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Command bar mobile client</v8:content>
-				</v8:item>
 			</Title>
 			<HorizontalLocation>Center</HorizontalLocation>
 			<ExtendedTooltip name="КоманднаяПанельМобильныйКлиентРасширеннаяПодсказка" id="28"/>
@@ -155,10 +131,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Как открывать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open mode</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -174,10 +146,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Больше не спрашивать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Do not ask again</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -202,19 +170,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open file</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьФайл</Action>
@@ -226,19 +186,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cancel</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>

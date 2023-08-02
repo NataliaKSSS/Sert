@@ -22,10 +22,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Варианты очистки файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File cleanup options</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -104,10 +100,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Очистить файлы и версии</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Clean up files and versions</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
@@ -119,10 +111,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Очистить файлы</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Clean up files</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -136,10 +124,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Очистить версии</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Clean up versions</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
@@ -151,10 +135,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не очищать</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Do not clean up</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

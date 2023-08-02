@@ -14,15 +14,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Владелец присоединенных файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Owner of attached files</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ПапкиФайлов</v8:Type>
-				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 			</Type>
 		</Properties>
 	</DefinedType>

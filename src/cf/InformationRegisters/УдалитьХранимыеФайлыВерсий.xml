@@ -38,10 +38,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>(не используется) Хранимые файлы версий</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>(not used) Stored file versions</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -182,10 +178,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранимый файл</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Stored file</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -198,10 +190,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Содержимое версии файла.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File version content.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -234,10 +222,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File version</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -250,10 +234,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия файла, которой принадлежит хранимое содержимое.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

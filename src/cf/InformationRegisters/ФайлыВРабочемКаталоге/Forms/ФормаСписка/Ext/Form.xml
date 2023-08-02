@@ -1,16 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<SearchStringAddition name="СтрокаПоиска" id="42">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="43"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="44"/>
+			</SearchStringAddition>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="ГруппаПользовательскихНастроек" id="31">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>User settings group</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -32,10 +45,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<SearchStringLocation>None</SearchStringLocation>
@@ -96,10 +105,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Version</v8:content>
-						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="СписокВерсияКонтекстноеМеню" id="5"/>
@@ -112,10 +117,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>User</v8:content>
 						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
@@ -130,10 +131,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Path</v8:content>
-						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="СписокПутьКонтекстноеМеню" id="9"/>
@@ -146,10 +143,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Size</v8:content>
 						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
@@ -164,10 +157,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата помещения в рабочий каталог</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date stored to working directory</v8:content>
-						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="СписокДатаПомещенияВРабочийКаталогКонтекстноеМеню" id="13"/>
@@ -180,10 +169,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>На чтение</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Read-only</v8:content>
 						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>

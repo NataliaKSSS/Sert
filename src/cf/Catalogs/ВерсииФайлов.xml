@@ -30,10 +30,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версии файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File versions</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -197,10 +193,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец версии файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version owner.</v8:content>
-						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -216,10 +208,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -267,10 +255,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
-						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -286,10 +270,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое наименование</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>A brief description.</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -310,10 +290,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Code</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -368,10 +344,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версия файла</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File version</v8:content>
-				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -392,13 +364,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Author</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.УчетныеЗаписиСинхронизацииФайлов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
@@ -409,10 +378,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, который добавил версию файла в список</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The user who added the file version.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -446,10 +411,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения (универсальное время)</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date modified (UTC)</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -465,10 +426,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения данных версии файла (универсальное время)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The universal date when the file version was modified.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -502,10 +459,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения (местное время)</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date modified (local time)</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -521,10 +474,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения данных версии файла (местное время)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Local date and time when the file version was modified.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -558,10 +507,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date created</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -577,10 +522,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата добавления версии файла в список</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The date when the file version was added.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -614,10 +555,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс значка</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Picture index</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -635,10 +572,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Индекс значка версии файла (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The index of the file version icon. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -672,10 +605,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Comment</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -692,10 +621,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий к версии файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version comment.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -729,10 +654,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Number</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -750,10 +671,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер версии файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version number.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -787,10 +704,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к файлу</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File path</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -807,10 +720,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к версии файла в томе (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The path to the file version in the volume. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -844,10 +753,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер (байт)</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Size (bytes)</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -865,10 +770,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер версии файла в байтах</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version size in bytes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -902,10 +803,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Extension</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -922,10 +819,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение версии файла</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The file version extension.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -959,10 +852,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родительская версия</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Parent version</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -975,10 +864,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родительская версия (возможна иерархическая структура версий)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The parent version (hierarchical versions structure is possible).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1012,10 +897,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Статус извлечения текста</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Extraction status</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1028,10 +909,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Статус извлечения текста из файла (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Status of the text extraction. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1065,10 +942,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Text</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1081,10 +954,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст, извлеченный из файла (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Text extracted from the file. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1118,10 +987,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип хранения версии файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File version storage type</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1134,10 +999,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип хранения версии файла (в томе или в информационной базе)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Where the file version is stored: in a volume or in the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1171,10 +1032,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Том</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Volume</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1187,10 +1044,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Том хранения файлов (когда версия файла хранится в томе)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Volume that stores the file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1224,10 +1077,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Временное хранилище версии файла</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File version temporary storage</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1240,10 +1089,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Временное хранилище версии файла (служебное поле)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Temporary storage of the file version. An internal field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1286,10 +1131,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>(не используется) Электронные подписи</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>(not used) Digital signatures</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1334,10 +1175,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата подписи</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Date signed</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1353,10 +1190,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата установки подписи</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Date when a user added the digital signature.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1387,10 +1220,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя файла подписи</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Signature file name</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1407,10 +1236,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя файла подписи (служебное поле)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Name of the signature file. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1441,10 +1266,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Comment</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1461,10 +1282,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий к подписи</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Free text about the signature.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1495,10 +1312,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Кому выдан сертификат</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Certificate owner</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1515,10 +1328,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Владелец сертификата (фамилия имя, организация, должность)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Certificate owner details: full name, job title, etc.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1549,10 +1358,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отпечаток</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Thumbprint</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1569,10 +1374,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отпечаток сертификата (служебное поле)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>The certificate's thumbprint. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1603,10 +1404,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подпись</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Signature</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1619,10 +1416,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Двоичные данные подписи (служебное поле)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Signature binary data. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1653,10 +1446,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Установивший подпись</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Signed by</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1669,10 +1458,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь, установивший подпись</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>User who signed the file.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1703,10 +1488,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сертификат</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Certificate</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1719,10 +1500,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Двоичные данные сертификата (служебное поле)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Certificate binary data. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1753,10 +1530,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата проверки подписи</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Date submitted</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1772,10 +1545,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата последней проверки подписи.</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Date when the signature was last submitted for validation.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1806,10 +1575,6 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подпись верна</v8:content>
 								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Is valid signature</v8:content>
-								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1822,10 +1587,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Результат последней проверки подписи.</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Flag that indicates whether the signature has passed the validation.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

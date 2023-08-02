@@ -42,10 +42,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интервал времени</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Period</v8:content>
-				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -58,10 +54,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал времени выполнения</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Repeat every</v8:content>
 						</v8:item>
 					</Title>
 					<SpinButton>true</SpinButton>
@@ -78,10 +70,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>(сек)</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>(sec)</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияСекКонтекстноеМеню" id="10"/>
@@ -103,10 +91,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество файлов с неизвлеченным текстом: 1234</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files with text extraction pending: 1234</v8:content>
-				</v8:item>
 			</Title>
 			<ContextMenu name="ИнформацияОКоличествеФайловСНеизвлеченнымТекстомКонтекстноеМеню" id="33"/>
 			<ExtendedTooltip name="ИнформацияОКоличествеФайловСНеизвлеченнымТекстомРасширеннаяПодсказка" id="34"/>
@@ -116,10 +100,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Статуса</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Status</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -150,10 +130,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интервал времени выполнения</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Repeat every</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -169,10 +145,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Статус</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Status</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -206,10 +178,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество файлов в одной порции</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files in a block</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -257,19 +225,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Старт</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Start</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Старт</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Start</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Старт</Action>
@@ -281,19 +241,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стоп</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Stop</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стоп</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Stop</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Стоп</Action>
@@ -305,19 +257,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Извлечь все</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Extract all</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Извлечь текст из всех файлов</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Extract text from all files.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзвлечьВсе</Action>

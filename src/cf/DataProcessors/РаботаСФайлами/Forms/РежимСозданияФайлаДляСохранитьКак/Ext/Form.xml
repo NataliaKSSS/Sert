@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Сохранение файла</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Save file</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -42,10 +38,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Message</v8:content>
-				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -60,11 +52,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация иконка</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Icon decoration</v8:content>
-						</v8:item>
 					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ДекорацияИконкаКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ДекорацияИконкаExtendedTooltip" id="24"/>
@@ -86,10 +78,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Файл</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -102,10 +90,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл и кнопка</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>File and button</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -145,11 +129,7 @@
 						<Presentation>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Копию файла на комьютере в рабочем каталоге (рекомендуется)</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Local file copy in working directory (recommended)</v8:content>
+								<v8:content>Копию файла на компьютере в рабочем каталоге (рекомендуется)</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">1</Value>
@@ -163,10 +143,6 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Получить заново и сохранить копию файла из программы</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Get and save file copy stored in the application</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">0</Value>
@@ -184,10 +160,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Message</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -202,10 +174,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выберите, какую копию файла сохранить</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Select a file copy to save</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -222,10 +190,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Копия файла на компьютере</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Local copy</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -244,19 +208,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить файл</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save file</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьФайл</Action>
@@ -268,21 +224,17 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open directory</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог файла</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open file directory</v8:content>
-				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Папка</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ОткрытьКаталог</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>

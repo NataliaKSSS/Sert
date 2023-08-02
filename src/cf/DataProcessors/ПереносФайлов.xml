@@ -18,10 +18,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перенос файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Move files</v8:content>
-				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -33,10 +29,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перенос файлов в тома хранения файлов</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Move files to file storage volumes.</v8:content>
 				</v8:item>
 			</Explanation>
 		</Properties>
@@ -51,10 +43,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перенос файлов</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Move files</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

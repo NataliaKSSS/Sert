@@ -22,7 +22,11 @@
 			<Content/>
 		</Properties>
 		<ChildObjects>
+			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>РаботаСФайлами</Subsystem>
+			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
+			<Subsystem>Пользователи</Subsystem>
+			<Subsystem>НастройкиПрограммы</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

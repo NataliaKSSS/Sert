@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Сканирование изображений</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Scan images</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -29,10 +25,6 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сохранить</v8:content>
 					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Save</v8:content>
-					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="28"/>
 			</Button>
@@ -44,10 +36,6 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сохранить как один файл</v8:content>
 					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Save as single file</v8:content>
-					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаПринятьВсеКакОдинФайлExtendedTooltip" id="26"/>
 			</Button>
@@ -58,10 +46,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сохранить как отдельные файлы</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Save as separate files</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаПринятьВсеКакОтдельныеФайлыExtendedTooltip" id="27"/>
@@ -79,10 +63,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Пересканировать</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Rescan</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ПересканироватьExtendedTooltip" id="25"/>
@@ -109,10 +89,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изображения</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Pictures</v8:content>
-				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -134,10 +110,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица файлов</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Files table</v8:content>
-						</v8:item>
 					</Title>
 					<CommandSet>
 						<ExcludedCommand>Add</ExcludedCommand>
@@ -152,7 +124,7 @@
 						<ExcludedCommand>SortListAsc</ExcludedCommand>
 						<ExcludedCommand>SortListDesc</ExcludedCommand>
 					</CommandSet>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
 					<SearchControlLocation>None</SearchControlLocation>
 					<RowFilter xsi:nil="true"/>
@@ -221,10 +193,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подождите. Идет сканирование...</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Scanning. Please wait...</v8:content>
-						</v8:item>
 					</NonselectedPictureText>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="КартинкаКонтекстноеМеню" id="7"/>
@@ -237,10 +205,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Message</v8:content>
 				</v8:item>
 			</Title>
 			<Height>2</Height>
@@ -256,10 +220,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация иконка</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Icon decoration</v8:content>
-						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.Information</xr:Ref>
@@ -274,6 +234,10 @@
 					<Visible>false</Visible>
 					<Representation>Picture</Representation>
 					<CommandName>Form.Command.ТекстНастроекИзменить</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
 					<ExtendedTooltip name="ТекстНастроекИзменить1РасширеннаяПодсказка" id="65"/>
 				</Button>
 				<UsualGroup name="ГруппаТекстНастроек" id="53">
@@ -281,10 +245,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст настроек</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Settings text</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -322,10 +282,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес картинки</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Picture URL</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -337,7 +293,7 @@
 		</Attribute>
 		<Attribute name="ВладелецФайла" id="3">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="ИмяФайла" id="4">
@@ -423,10 +379,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица файлов</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Files table</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -437,10 +389,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -496,10 +444,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст настроек</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Settings text</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -524,16 +468,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПутьКПрограммеКонвертации" id="18">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="СжатиеTIFF" id="19">
+		<Attribute name="СжатиеTIFFПеречисление" id="19">
 			<Type>
 				<v8:Type>cfg:EnumRef.ВариантыСжатияTIFF</v8:Type>
 			</Type>
@@ -543,7 +478,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СжатиеTIFFЧисло" id="21">
+		<Attribute name="СжатиеTIFF" id="21">
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -608,11 +543,6 @@
 				<v8:Type>cfg:EnumRef.ФорматыХраненияМногостраничныхФайлов</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ФорматХраненияОдностраничный" id="33">
-			<Type>
-				<v8:Type>cfg:EnumRef.ФорматыХраненияОдностраничныхФайлов</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="ПрефиксИнформационнойБазы" id="34">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -637,6 +567,29 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="СохранятьВPDF" id="38">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторКлиента" id="39">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипРезультата" id="41">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Сохранить" id="1">
@@ -645,19 +598,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сохранить</Action>
@@ -669,19 +614,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пересканировать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Rescan</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пересканировать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Rescan</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Пересканировать</Action>
@@ -693,19 +630,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сканировать</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Scan</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сканировать</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Scan</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сканировать</Action>
@@ -717,19 +646,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить все как один файл</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save all as single file</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить все как один файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save all as a single file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВсеКакОдинФайл</Action>
@@ -741,19 +662,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить все как отдельные файлы</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save all as separate files</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить все как отдельные файлы</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save all as separate files.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВсеКакОтдельныеФайлы</Action>
@@ -765,19 +678,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Settings</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Настройка</Action>
@@ -789,19 +694,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст настроек изменить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Settings text change</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст настроек изменить</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Settings text change</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>

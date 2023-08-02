@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбор версии файла</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Select file version</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -36,10 +32,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>User settings group</v8:content>
-				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -51,10 +43,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -91,10 +79,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Удаление</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Delete</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаУдалениеРасширеннаяПодсказка" id="69"/>
@@ -163,6 +147,20 @@
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ПоказыватьПомеченныеФайлыРасширеннаяПодсказка" id="93"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоиска" id="94">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="96"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<Table name="Список" id="2">
@@ -180,10 +178,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -244,10 +238,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вертикально</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Vertical</v8:content>
-						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаВертикальноРасширеннаяПодсказка" id="52"/>
 					<ChildItems>
@@ -256,10 +246,6 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основное</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -306,6 +292,7 @@
 							<DataPath>Список.Комментарий</DataPath>
 							<AutoCellHeight>true</AutoCellHeight>
 							<ShowInHeader>false</ShowInHeader>
+							<TextColor>style:ПоясняющийТекст</TextColor>
 							<ContextMenu name="КомментарийКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="57"/>
 						</LabelField>
@@ -373,19 +360,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Show marked files</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Show marked files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПомеченныеФайлы</Action>
@@ -396,19 +375,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить данные версии файла</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Delete file version data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

@@ -5,10 +5,6 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Сохранение версии файла</v8:content>
 		</v8:item>
-		<v8:item>
-			<v8:lang>en</v8:lang>
-			<v8:content>Save file version</v8:content>
-		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -48,10 +44,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новую версию (рекомендуется)</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Create new version (recommended)</v8:content>
-				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -64,10 +56,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная командная панель</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Main command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -96,10 +84,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отмена</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Cancel</v8:content>
-						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="17"/>
 				</Button>
@@ -122,10 +106,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий к версии</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Version comment</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -141,10 +121,6 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новую версию</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Create new version</v8:content>
-				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -155,10 +131,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Файл</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>File</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -173,19 +145,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить версию файла</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Save a file version.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сохранить</Action>
@@ -197,19 +161,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cancel</v8:content>
-				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>
@@ -219,7 +175,7 @@
 	<Parameters>
 		<Parameter name="ФайлСсылка">
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
