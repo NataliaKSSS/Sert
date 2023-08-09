@@ -94,6 +94,24 @@
 			<ContextMenu name="ПоставщикКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ПоставщикExtendedTooltip" id="32"/>
 		</InputField>
+		<CheckBoxField name="ВестиУчетСертификатовНоменклатуры" id="72">
+			<DataPath>Объект.ВестиУчетСертификатовНоменклатуры</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВестиУчетСертификатовНоменклатурыКонтекстноеМеню" id="73"/>
+			<ExtendedTooltip name="ВестиУчетСертификатовНоменклатурыРасширеннаяПодсказка" id="74"/>
+		</CheckBoxField>
+		<InputField name="ВидНоменклатуры" id="69">
+			<DataPath>Объект.ВидНоменклатуры</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="71"/>
+		</InputField>
+		<InputField name="ГруппаДоступа" id="75">
+			<DataPath>Объект.ГруппаДоступа</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГруппаДоступаКонтекстноеМеню" id="76"/>
+			<ExtendedTooltip name="ГруппаДоступаРасширеннаяПодсказка" id="77"/>
+		</InputField>
 		<InputField name="ШтрихКод" id="11">
 			<DataPath>Объект.Штрихкод</DataPath>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>

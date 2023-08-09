@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="ExternalEvent">ВнешнееСобытие</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<RadioButtonField name="КомпонентаНаКлиенте" id="112">
+			<DataPath>ИспользоватьКомпоненту</DataPath>
+			<RadioButtonType>Auto</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>На клиенте</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">0</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>На сервере</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">1</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="КомпонентаНаКлиентеКонтекстноеМеню" id="113"/>
+			<ExtendedTooltip name="КомпонентаНаКлиентеРасширеннаяПодсказка" id="114"/>
+		</RadioButtonField>
+		<Pages name="ГруппаОсновная" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="80"/>
+			<ChildItems>
+				<Page name="ГруппаНастройкиПодключения" id="83">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки подключения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки подключения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаНастройкиПодключенияРасширеннаяПодсказка" id="84"/>
+					<ChildItems>
+						<InputField name="Адрес" id="85">
+							<DataPath>Адрес</DataPath>
+							<ContextMenu name="АдресКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="87"/>
+						</InputField>
+						<InputField name="Порт" id="88">
+							<DataPath>Порт</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>5672</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ContextMenu name="ПортКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="90"/>
+						</InputField>
+						<InputField name="Логин" id="91">
+							<DataPath>Логин</DataPath>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="93"/>
+						</InputField>
+						<InputField name="Пароль" id="94">
+							<DataPath>Пароль</DataPath>
+							<ContextMenu name="ПарольКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="96"/>
+						</InputField>
+						<InputField name="ВиртуальныйХост" id="97">
+							<DataPath>ВиртуальныйХост</DataPath>
+							<ContextMenu name="ВиртуальныйХостКонтекстноеМеню" id="98"/>
+							<ExtendedTooltip name="ВиртуальныйХостРасширеннаяПодсказка" id="99"/>
+						</InputField>
+						<Button name="ПроверитьПодключение" id="110">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПроверитьПодключение</CommandName>
+							<ExtendedTooltip name="ПроверитьПодключениеРасширеннаяПодсказка" id="111"/>
+						</Button>
+						<LabelDecoration name="Декорация" id="118">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Для тестирования можно использовать бесплатный аккаунт на cloudamqp.com</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="ДекорацияРасширеннаяПодсказка" id="120"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаТочкаОбменаОчередь" id="81">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка обмена/очередь</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа точка обмена очередь</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаТочкаОбменаОчередьРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<InputField name="ТочкаОбмена" id="20">
+							<DataPath>ТочкаОбмена</DataPath>
+							<ContextMenu name="ТочкаОбменаКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ТочкаОбменаРасширеннаяПодсказка" id="22"/>
+						</InputField>
+						<InputField name="ИмяОчереди" id="6">
+							<DataPath>ИмяОчереди</DataPath>
+							<ContextMenu name="ИмяОчередиКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ИмяОчередиРасширеннаяПодсказка" id="8"/>
+						</InputField>
+						<Button name="СозданиеТочкиИОчереди" id="77">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СозданиеТочкиИОчереди</CommandName>
+							<ExtendedTooltip name="СозданиеТочкиИОчередиРасширеннаяПодсказка" id="78"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОтправитьСообщение" id="106">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправить сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отправить сообщение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаОтправитьСообщениеРасширеннаяПодсказка" id="107"/>
+					<ChildItems>
+						<UsualGroup name="Группа2" id="153">
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="154"/>
+							<ChildItems>
+								<Button name="ОтправитьОбъекты" id="151">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОтправитьОбъекты</CommandName>
+									<ExtendedTooltip name="ОтправитьОбъектыРасширеннаяПодсказка" id="152"/>
+								</Button>
+								<InputField name="КлючМаршрутизации" id="121">
+									<DataPath>КлючМаршрутизации</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="КлючМаршрутизацииКонтекстноеМеню" id="122"/>
+									<ExtendedTooltip name="КлючМаршрутизацииРасширеннаяПодсказка" id="123"/>
+								</InputField>
+								<InputField name="ТекстСообщения" id="11">
+									<DataPath>ТекстСообщения</DataPath>
+									<Visible>false</Visible>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="12"/>
+									<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="13"/>
+								</InputField>
+								<Button name="ОтправитьСообщение" id="100">
+									<Type>UsualButton</Type>
+									<Visible>false</Visible>
+									<CommandName>Form.Command.ОтправитьСообщение</CommandName>
+									<ExtendedTooltip name="ОтправитьСообщениеРасширеннаяПодсказка" id="101"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ПолучитьСообщение" id="108">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить сообщение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ПолучитьСообщениеРасширеннаяПодсказка" id="109"/>
+					<ChildItems>
+						<InputField name="ОтветноеСообщение" id="115">
+							<DataPath>ОтветноеСообщение</DataPath>
+							<Visible>false</Visible>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ОтветноеСообщениеКонтекстноеМеню" id="116"/>
+							<ExtendedTooltip name="ОтветноеСообщениеРасширеннаяПодсказка" id="117"/>
+						</InputField>
+						<Button name="ПолучениеОбъектовОбщийМодуль" id="149">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПолучениеОбъектовОбщийМодуль</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получение объектов</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ПолучениеОбъектовОбщийМодульРасширеннаяПодсказка" id="150"/>
+						</Button>
+						<Button name="ПрочитатьСообщение" id="102">
+							<Type>UsualButton</Type>
+							<Visible>false</Visible>
+							<CommandName>Form.Command.ПрочитатьСообщение</CommandName>
+							<ExtendedTooltip name="ПрочитатьСообщениеРасширеннаяПодсказка" id="103"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПримерРаботыСКомпонентойPinkRabbitMQ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИмяОчереди" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя очереди</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяОчереди</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТекстСообщения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ТекстСообщения</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТочкаОбмена" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ТочкаОбмена</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Адрес" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Порт" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВиртуальныйХост" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виртуальный хост</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьКомпоненту" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать компоненту</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтветноеСообщение" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответное сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КлючМаршрутизации" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ключ маршрутизации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>КлючМаршрутизации</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ОбъектыКОтправке" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты к отправке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.TrierRabbitMQОбъектыКОтправке</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СозданиеТочкиИОчереди" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание точки и очереди</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание точки и очереди</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СозданиеТочкиИОчереди</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОтправитьСообщение" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщение</Action>
+		</Command>
+		<Command name="ПрочитатьСообщение" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрочитатьСообщение</Action>
+		</Command>
+		<Command name="ПроверитьКомпоненту" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить компоненту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить компоненту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьКомпоненту</Action>
+		</Command>
+		<Command name="ПроверитьПодключение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьПодключение</Action>
+		</Command>
+		<Command name="ОтправкаВыбранныхСообщенийИзРегистра" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправка выбранных сообщений из регистра</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправка выбранных сообщений из регистра</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправкаВыбранныхСообщенийИзРегистра</Action>
+		</Command>
+		<Command name="ПолучениеОбъектовОбщийМодуль" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получение объектов общий модуль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получение объектов общий модуль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучениеОбъектовОбщийМодуль</Action>
+		</Command>
+		<Command name="ОтправитьОбъекты" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить объекты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить объекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьОбъекты</Action>
+		</Command>
+	</Commands>
+</Form>

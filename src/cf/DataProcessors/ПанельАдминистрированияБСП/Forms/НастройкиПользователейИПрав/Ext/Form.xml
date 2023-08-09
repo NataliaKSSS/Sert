@@ -248,7 +248,7 @@
 						</UsualGroup>
 						<Button name="ОтчетАнализПравДоступаОткрыть" id="2239">
 							<Type>Hyperlink</Type>
-							<CommandName>Report.АнализПравДоступа.StandardCommand.Open</CommandName>
+							<CommandName>0:8fbf9432-77e8-4951-87a1-4368e3a5e117</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОтчетАнализПравДоступаОткрытьРасширеннаяПодсказка" id="2240">
 								<Title formatted="false">
@@ -306,7 +306,7 @@
 							<ChildItems>
 								<Button name="ОткрытьГруппыДоступа" id="849">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ГруппыДоступа.StandardCommand.OpenList</CommandName>
+									<CommandName>0:d0106f3a-8490-4277-a278-75c318ec252c</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьГруппыДоступаExtendedTooltip" id="2052">
 										<Title formatted="false">
@@ -355,7 +355,7 @@
 							<ChildItems>
 								<Button name="ОткрытьПрофилиГруппДоступа" id="845">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</CommandName>
+									<CommandName>0:f31f3dab-5796-47ac-a54d-3081f8cad817</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьПрофилиГруппДоступаExtendedTooltip" id="2055">
 										<Title formatted="false">
@@ -684,7 +684,7 @@
 							<ChildItems>
 								<Button name="ОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДанным" id="2213">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.НастройкиРегистрацииСобытийДоступаКПерсональнымДанным.StandardCommand.Open</CommandName>
+									<CommandName>100:fabbac92-cb98-4087-b3fa-387482ed0d86</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДаннымExtendedTooltip" id="2214">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -790,7 +790,7 @@
 					<ChildItems>
 						<Button name="ОбработкаЗащитаПерсональныхДанных" id="2217">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ЗащитаПерсональныхДанных.Command.ЗащитаПерсональныхДанных</CommandName>
+							<CommandName>0:d917c19e-be15-41cc-9c8a-a97c8de85309</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбработкаЗащитаПерсональныхДанныхExtendedTooltip" id="2218">
 								<AutoMaxWidth>false</AutoMaxWidth>

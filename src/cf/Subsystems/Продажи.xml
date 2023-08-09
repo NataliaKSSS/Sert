@@ -32,7 +32,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияЗаказов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ДокументыПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ВзаимосвязьПродажТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрайсЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c4425226-a604-4cfc-8ada-a5adc6382c21</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализЗаказов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиТоваровНаСкладахМобильный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОстаткиТоваровНаСкладахКоманда</xr:Item>

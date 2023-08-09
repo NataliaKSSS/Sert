@@ -316,10 +316,10 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.Валюты.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.Валюты.Form.ФормаСписка</DefaultChoiceForm>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -920,10 +920,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Form>ФормаСписка</Form>
-			<Form>ФормаЭлемента</Form>
-			<Form>ПараметрыПрописиВалюты_en</Form>
-			<Form>ПараметрыПрописиВалютыНаДругихЯзыках</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

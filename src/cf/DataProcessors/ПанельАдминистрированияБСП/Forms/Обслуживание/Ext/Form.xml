@@ -86,17 +86,17 @@
 				</Button>
 				<Button name="ОбработкаАктивныеПользователиОткрыть" id="1446">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.АктивныеПользователи.StandardCommand.Open</CommandName>
+					<CommandName>0:a22d1a4f-cb7c-4bcc-b258-ecca282fb071</CommandName>
 					<ExtendedTooltip name="ОбработкаАктивныеПользователиОткрытьExtendedTooltip" id="1639"/>
 				</Button>
 				<Button name="ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрыть" id="1447">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.БлокировкаРаботыПользователей.StandardCommand.Open</CommandName>
+					<CommandName>0:2a479b8f-7569-43d0-8ca3-9001d6ec57f0</CommandName>
 					<ExtendedTooltip name="ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьExtendedTooltip" id="1640"/>
 				</Button>
 				<Button name="ОбработкаУдалениеПомеченныхОбъектовОткрыть" id="1448">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open</CommandName>
+					<CommandName>0:97888342-2969-4ab1-8923-04ef0c818e49</CommandName>
 					<ExtendedTooltip name="ОбработкаУдалениеПомеченныхОбъектовОткрытьExtendedTooltip" id="1641"/>
 				</Button>
 			</ChildItems>
@@ -169,7 +169,7 @@
 							<ChildItems>
 								<Button name="ДополнительныеОтчетыПоАдминистрированию" id="1818">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonCommand.ДополнительныеОтчетыАдминистрирование</CommandName>
+									<CommandName>0:19add2bd-eede-4a05-901b-cf8ce49a638f</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -205,7 +205,7 @@
 							<ChildItems>
 								<Button name="ДополнительныеОбработкиПоАдминистрированию" id="1820">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonCommand.ДополнительныеОбработкиАдминистрирование</CommandName>
+									<CommandName>0:592f55e1-b004-44ef-878a-6c2016ccbeb0</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -273,7 +273,7 @@
 							<ChildItems>
 								<Button name="ОбработкаРегламентныеИФоновыеЗадания" id="1502">
 									<Type>Hyperlink</Type>
-									<CommandName>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</CommandName>
+									<CommandName>0:10543f9a-4e3f-427a-b36a-9c66709dd6fb</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip" id="1645">
 										<Title formatted="false">
@@ -442,7 +442,7 @@
 											<ChildItems>
 												<Button name="ОбработкаРезервноеКопированиеИБОткрыть" id="2097">
 													<Type>Hyperlink</Type>
-													<CommandName>DataProcessor.РезервноеКопированиеИБ.StandardCommand.Open</CommandName>
+													<CommandName>0:973967e5-1702-4fb8-ba36-70fd5b3b7e7c</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -462,7 +462,7 @@
 												</Button>
 												<Button name="ОбработкаРезервноеКопированиеИБВыполнитьВосстановлениеДанных" id="2095">
 													<Type>Hyperlink</Type>
-													<CommandName>DataProcessor.РезервноеКопированиеИБ.Command.ВыполнитьВосстановлениеДанных</CommandName>
+													<CommandName>0:d8e62f1a-92ca-4971-9609-e79da798c083</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -499,7 +499,7 @@
 											<ChildItems>
 												<Button name="НастройкаРезервногоКопированияИБ" id="2099">
 													<Type>Hyperlink</Type>
-													<CommandName>DataProcessor.НастройкаРезервногоКопированияИБ.StandardCommand.Open</CommandName>
+													<CommandName>0:162137ef-dea2-4ace-9e67-897dad0e7c3d</CommandName>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 													<ExtendedTooltip name="НастройкаРезервногоКопированияИБРасширеннаяПодсказка" id="2100">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -836,7 +836,7 @@
 						</Button>
 						<Button name="ПравилаПроверкиУчета" id="2221">
 							<Type>Hyperlink</Type>
-							<CommandName>Catalog.ПравилаПроверкиУчета.StandardCommand.OpenList</CommandName>
+							<CommandName>0:55bce105-51c0-452e-9eec-b960fe740db2</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -873,7 +873,7 @@
 					<ChildItems>
 						<Button name="ОбработкаПоискИУдалениеДублейПоискИУдалениеДублей" id="2093">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</CommandName>
+							<CommandName>0:8fa21575-177f-4b7c-94b5-dfeefe737cb4</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбработкаПоискИУдалениеДублейПоискИУдалениеДублейРасширеннаяПодсказка" id="2094">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -932,7 +932,7 @@
 							<ChildItems>
 								<Button name="УстановкаОбновлений" id="2103">
 									<Type>Hyperlink</Type>
-									<CommandName>DataProcessor.УстановкаОбновлений.StandardCommand.Open</CommandName>
+									<CommandName>0:4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -966,7 +966,7 @@
 							<ChildItems>
 								<Button name="УстановленныеИсправленияОткрыть" id="2225">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.УстановленныеИсправления.StandardCommand.Open</CommandName>
+									<CommandName>100:46e313f7-54da-4884-89e8-cdba6ae30d30</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

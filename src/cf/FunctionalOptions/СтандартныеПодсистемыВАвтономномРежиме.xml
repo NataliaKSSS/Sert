@@ -14,6 +14,7 @@
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
 				<xr:Object>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</xr:Object>
+				<xr:Object>DataProcessor.УправлениеИтогамиИАгрегатами</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

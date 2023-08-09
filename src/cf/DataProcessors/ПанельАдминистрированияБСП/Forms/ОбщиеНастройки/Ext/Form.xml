@@ -239,7 +239,7 @@
 							<ChildItems>
 								<Button name="ОткрытьПараметрыПроксиСервера" id="1686">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</CommandName>
+									<CommandName>100:4399c19a-ddba-42e9-88b4-c5c28abad237</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -360,7 +360,7 @@
 			<ChildItems>
 				<Button name="ОткрытьВидыКонтактнойИнформации" id="1640">
 					<Type>Hyperlink</Type>
-					<CommandName>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</CommandName>
+					<CommandName>0:782cb93d-36e6-4923-b2b6-75caa3459cd6</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОткрытьВидыКонтактнойИнформацииExtendedTooltip" id="1866">
 						<Title formatted="false">
@@ -728,7 +728,7 @@
 							<Type>Hyperlink</Type>
 							<Width>43</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<CommandName>CommonForm.НастройкиЭлектроннойПодписиИШифрования.StandardCommand.Open</CommandName>
+							<CommandName>100:304525f8-c697-4835-b0a6-4ed3cbcaf3c6</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -751,7 +751,7 @@
 				</UsualGroup>
 				<Button name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрыть" id="2256">
 					<Type>Hyperlink</Type>
-					<CommandName>CommonForm.РазрешенныеНеаккредитованныеУЦ.StandardCommand.Open</CommandName>
+					<CommandName>100:cb81fb9f-16a2-4265-92a9-b827ca2fd588</CommandName>
 					<ExtendedTooltip name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрытьРасширеннаяПодсказка" id="2257"/>
 				</Button>
 				<UsualGroup name="ГруппаУсовершенствованнаяПодпись" id="2158">

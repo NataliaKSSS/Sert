@@ -23,10 +23,11 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>БазоваяФункциональность</Subsystem>
-			<Subsystem>РаботаСФайлами</Subsystem>
 			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
-			<Subsystem>Пользователи</Subsystem>
 			<Subsystem>НастройкиПрограммы</Subsystem>
+			<Subsystem>Пользователи</Subsystem>
+			<Subsystem>РаботаСФайлами</Subsystem>
+			<Subsystem>ОценкаПроизводительности</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

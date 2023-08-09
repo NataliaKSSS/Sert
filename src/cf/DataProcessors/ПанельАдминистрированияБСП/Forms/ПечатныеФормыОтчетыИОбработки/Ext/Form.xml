@@ -377,7 +377,7 @@
 							<ChildItems>
 								<Button name="ОткрытьРассылкиОтчетов" id="1577">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.РассылкиОтчетов.StandardCommand.OpenList</CommandName>
+									<CommandName>0:8ce6cc1a-8570-4704-b9a3-44e815b2e753</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьРассылкиОтчетовExtendedTooltip" id="1613">
 										<Title formatted="false">
@@ -501,7 +501,7 @@
 							<ChildItems>
 								<Button name="ОбработкаУправлениеВнешнимиКомпонентами" id="1688">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</CommandName>
+									<CommandName>0:1610e73c-58df-41cc-8349-51b920806821</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОбработкаУправлениеВнешнимиКомпонентамиРасширеннаяПодсказка" id="1689">
 										<Title formatted="false">
@@ -667,7 +667,7 @@
 					<ChildItems>
 						<Button name="ОткрытьСостоянияОригиналовПервичныхДокументов" id="1705">
 							<Type>Hyperlink</Type>
-							<CommandName>Catalog.СостоянияОригиналовПервичныхДокументов.StandardCommand.OpenList</CommandName>
+							<CommandName>0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>

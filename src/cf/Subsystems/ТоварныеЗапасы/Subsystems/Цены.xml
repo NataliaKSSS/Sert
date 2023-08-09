@@ -18,7 +18,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыЦен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрайсЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c4425226-a604-4cfc-8ada-a5adc6382c21</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -181,19 +181,19 @@
 				<Button name="Просмотр" id="22">
 					<Type>CommandBarButton</Type>
 					<CommandName>Catalog.ВариантыОтчетов.Command.Открыть</CommandName>
-					<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
 					<ExtendedTooltip name="ПросмотрExtendedTooltip" id="104"/>
 				</Button>
 				<Button name="Изменить" id="164">
 					<Type>CommandBarButton</Type>
 					<CommandName>Catalog.ВариантыОтчетов.Command.Изменить</CommandName>
-					<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
 					<ExtendedTooltip name="ИзменитьРасширеннаяПодсказка" id="165"/>
 				</Button>
 				<Button name="РазместитьВРазделах" id="36">
 					<Type>CommandBarButton</Type>
 					<CommandName>Catalog.ВариантыОтчетов.Command.РазместитьВРазделах</CommandName>
-					<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="РазместитьВРазделахExtendedTooltip" id="106"/>
 				</Button>
@@ -249,14 +249,14 @@
 				<Button name="СброситьНастройкиРазмещения" id="95">
 					<Type>CommandBarButton</Type>
 					<CommandName>Catalog.ВариантыОтчетов.Command.СброситьНастройкиРазмещения</CommandName>
-					<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="СброситьНастройкиРазмещенияРасширеннаяПодсказка" id="110"/>
 				</Button>
 				<Button name="СброситьНастройкиПользователей" id="70">
 					<Type>CommandBarButton</Type>
 					<CommandName>Catalog.ВариантыОтчетов.Command.СброситьНастройкиПользователей</CommandName>
-					<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="СброситьНастройкиПользователейExtendedTooltip" id="111"/>
 				</Button>
@@ -409,7 +409,7 @@
 					<EnableStartDrag>true</EnableStartDrag>
 					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>Список</DataPath>
-					<RowPictureDataPath>~Список.ИндексКартинки</RowPictureDataPath>
+					<RowPictureDataPath>Список.ИндексКартинки</RowPictureDataPath>
 					<RowsPicture>
 						<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -449,19 +449,19 @@
 							<Button name="ПросмотрСписок" id="43">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ВариантыОтчетов.Command.Открыть</CommandName>
-								<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>Items.Список.CurrentData.Ref</DataPath>
 								<ExtendedTooltip name="ПросмотрСписокExtendedTooltip" id="118"/>
 							</Button>
 							<Button name="ИзменитьКонтекстноеМеню" id="166">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ВариантыОтчетов.Command.Изменить</CommandName>
-								<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>Items.Список.CurrentData.Ref</DataPath>
 								<ExtendedTooltip name="ИзменитьКонтекстноеМенюРасширеннаяПодсказка" id="167"/>
 							</Button>
 							<Button name="РазместитьВРазделахСписок" id="62">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ВариантыОтчетов.Command.РазместитьВРазделах</CommandName>
-								<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>Items.Список.CurrentData.Ref</DataPath>
 								<ExtendedTooltip name="РазместитьВРазделахСписокExtendedTooltip" id="120"/>
 							</Button>
 							<ButtonGroup name="КомандыСпискаСписок" id="89">
@@ -533,7 +533,7 @@
 									<ExtendedTooltip name="КолонкиПервойСтрокиРасширеннаяПодсказка" id="140"/>
 									<ChildItems>
 										<LabelField name="Наименование" id="4" DisplayImportance="VeryHigh">
-											<DataPath>~Список.Наименование</DataPath>
+											<DataPath>Список.Наименование</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -545,17 +545,17 @@
 											<ExtendedTooltip name="НаименованиеExtendedTooltip" id="124"/>
 										</LabelField>
 										<LabelField name="Автор" id="12" DisplayImportance="Low">
-											<DataPath>~Список.Автор</DataPath>
+											<DataPath>Список.Автор</DataPath>
 											<ContextMenu name="АвторКонтекстноеМеню" id="13"/>
 											<ExtendedTooltip name="АвторExtendedTooltip" id="125"/>
 										</LabelField>
 										<LabelField name="Назначение" id="202">
-											<DataPath>~Список.Назначение</DataPath>
+											<DataPath>Список.Назначение</DataPath>
 											<ContextMenu name="НазначениеКонтекстноеМеню" id="203"/>
 											<ExtendedTooltip name="НазначениеРасширеннаяПодсказка" id="204"/>
 										</LabelField>
 										<PictureField name="ДоступенВсемПользователям" id="96">
-											<DataPath>~Список.ДоступенВсемПользователям</DataPath>
+											<DataPath>Список.ДоступенВсемПользователям</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -572,6 +572,10 @@
 													<v8:content>Доступен всем пользователям</v8:content>
 												</v8:item>
 											</ToolTip>
+											<ValuesPicture>
+												<xr:Ref>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</ValuesPicture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДоступенВсемПользователямКонтекстноеМеню" id="97"/>
 											<ExtendedTooltip name="ДоступенВсемПользователямExtendedTooltip" id="126"/>
@@ -604,7 +608,7 @@
 									<ExtendedTooltip name="КолонкиВторойСтрокиРасширеннаяПодсказка" id="142"/>
 									<ChildItems>
 										<LabelField name="Описание" id="143" DisplayImportance="Low">
-											<DataPath>~Список.Описание</DataPath>
+											<DataPath>Список.Описание</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -634,7 +638,7 @@
 							<ExtendedTooltip name="ТехническаяИнформацияРасширеннаяПодсказка" id="149"/>
 							<ChildItems>
 								<LabelField name="ИмяОтчета" id="73">
-									<DataPath>~Список.ИмяОтчета</DataPath>
+									<DataPath>Список.ИмяОтчета</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -648,7 +652,7 @@
 									<ExtendedTooltip name="ИмяОтчетаExtendedTooltip" id="128"/>
 								</LabelField>
 								<LabelField name="Отчет" id="77">
-									<DataPath>~Список.Отчет</DataPath>
+									<DataPath>Список.Отчет</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -656,7 +660,7 @@
 									<ExtendedTooltip name="ОтчетExtendedTooltip" id="129"/>
 								</LabelField>
 								<LabelField name="ТипОтчета" id="81">
-									<DataPath>~Список.ТипОтчета</DataPath>
+									<DataPath>Список.ТипОтчета</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -664,7 +668,7 @@
 									<ExtendedTooltip name="ТипОтчетаExtendedTooltip" id="130"/>
 								</LabelField>
 								<LabelField name="КлючВарианта" id="75">
-									<DataPath>~Список.КлючВарианта</DataPath>
+									<DataPath>Список.КлючВарианта</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -674,7 +678,7 @@
 							</ChildItems>
 						</ColumnGroup>
 						<LabelField name="Ссылка" id="134">
-							<DataPath>~Список.Ref~Список.Ссылка</DataPath>
+							<DataPath>Список.Ref</DataPath>
 							<UserVisible>
 								<xr:Common>false</xr:Common>
 							</UserVisible>
@@ -693,15 +697,15 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>~Список.Ref~Список.Ссылка</Field>
-				<Field>~Список.Автор</Field>
-				<Field>~Список.ИмяОтчета</Field>
-				<Field>~Список.КлючВарианта</Field>
-				<Field>~Список.КлючЗамеров</Field>
-				<Field>~Список.Наименование</Field>
-				<Field>~Список.Отчет</Field>
-				<Field>~Список.ПолноеИмяОтчета</Field>
-				<Field>~Список.ТипОтчета</Field>
+				<Field>Список.Ref</Field>
+				<Field>Список.Автор</Field>
+				<Field>Список.ИмяОтчета</Field>
+				<Field>Список.КлючВарианта</Field>
+				<Field>Список.КлючЗамеров</Field>
+				<Field>Список.Наименование</Field>
+				<Field>Список.Отчет</Field>
+				<Field>Список.ПолноеИмяОтчета</Field>
+				<Field>Список.ТипОтчета</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -807,6 +811,7 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
+				<v8:Type>cfg:EnumRef.ТипыОтчетов</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>

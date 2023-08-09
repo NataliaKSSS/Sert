@@ -1,0 +1,92 @@
+@startuml
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' !include C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "Схема работы подсистемы обмена сертификатами"
+
+
+System(Master_base, "Мастер база", "Мастер база НСИ")
+
+System(UPP, "Рабочие базы ДК", "Оперативный контур")
+'System(UPP1, "Рабочая база ДК 2", "Рабочая база ДК")
+System_Ext(RMQ, "RMQ", "Rabbit MQ")
+System_Ext(ImageFolder, "Файловый сервер", "Хранение изображений сертификатов")
+Person(customerGK, "Отдел сертификации", "Сотрудник головной компании")
+Person(customerDK, "Отдел продаж", "Сотрудник дочерней компании")
+BiRel_D(customerGK, Master_base, "Внесение/печать реестров и изображений сертификатов")
+BiRel_D(customerDK, UPP, "Внесение/печать реестров и изображений сертификатов")
+'BiRel_D(UPP, RMQ, "Обмен данными сертификатов", "RMQ")
+'BiRel_D(Master_base, RMQ, "Обмен данными сертификатов", "RMQ")
+'Rel_R(Master_base, ImageFolder, "Сохранение изображения")
+'Rel_L(UPP, ImageFolder, "Сохранение изображения")
+
+
+System_Boundary(Master_base, "Мастер база") {
+    'ContainerDb(Nomenlature_Sert, "Области действия сертификатов номенклатуры", "Регистр сведений", "Содержит сведения о связи сертификатов и номенклатуры")
+
+    
+    ContainerDb(sert, "Сертификаты номенклатуры", "Справочник", "Содержит данные сертификатов")
+    
+    'ContainerDb(Nomenlature, "Номенклатура", "Справочник", "Содержит сведения о номенклатуре и данные для маршрутизации")
+    Container(sert_Files, "Сертификаты номенклатуры присоединенные файлы", "Справочник", "Содержит ссылку на изображение сертификата в файловом хранилище")
+    
+    Container(obj_go, "Объекты к отправке", "Регистр сведений", "Таблица объектов для отправки в базы")
+    Container(obj_sinx, "Синхронизируемые объекты", "Регистр сведений", "Содержит настройки и алгоритм формирования и обработки сообщений")
+    Container(compRMQ, "Pink Rabbit", "Компонента для связи с RMQ", "Инициализируется при отправке сообщения")
+    'Container(Err_Obj, "Ошибки обработки сообщений", "Регистр сведений", "Фиксация ошибок при обработке входящих сообщений")
+}
+
+Rel(sert, sert_Files,)
+
+Rel(sert,obj_go, "При записи")
+Rel(sert_Files,obj_go, "При записи")
+
+Rel(obj_go,obj_sinx, "Формирование сообщения")
+Rel(sert_Files,ImageFolder, "Сохранение изображения")
+Rel(obj_sinx,compRMQ, "Отправка сообщения")
+'BiRel_D(compRMQ,RMQ, "Обмен данными","RMQ")
+
+System_Boundary(UPP, "Рабочие базы ДК") {
+    'ContainerDb(Nomenlature_Sert, "Области действия сертификатов номенклатуры", "Регистр сведений", "Содержит сведения о связи сертификатов и номенклатуры")
+
+    
+    ContainerDb(sertUPP, "Сертификаты номенклатуры", "Справочник", "Содержит данные сертификатов")
+    
+    'ContainerDb(Nomenlature, "Номенклатура", "Справочник", "Содержит сведения о номенклатуре и данные для маршрутизации")
+    Container(sert_FilesUPP, "Сертификаты номенклатуры присоединенные файлы", "Справочник", "Содержит ссылку на изображение сертификата в файловом хранилище")
+    
+    Container(obj_goUPP, "Объекты к отправке", "Регистр сведений", "Таблица объектов для отправки в базы")
+    Container(obj_sinxUPP, "Синхронизируемые объекты", "Регистр сведений", "Содержит настройки и алгоритм формирования и обработки сообщений")
+    Container(compRMQUPP, "Pink Rabbit", "Компонента для связи с RMQ", "Инициализируется при отправке сообщения")
+    'Container(Err_Obj, "Ошибки обработки сообщений", "Регистр сведений", "Фиксация ошибок при обработке входящих сообщений")
+}
+
+Rel(sertUPP, sert_FilesUPP,)
+
+Rel(sertUPP,obj_goUPP, "При записи")
+Rel(sert_FilesUPP,obj_goUPP, "При записи")
+
+Rel(obj_goUPP,obj_sinxUPP, "Формирование сообщения")
+Rel(sert_FilesUPP,ImageFolder, "Сохранение изображения")
+Rel(obj_sinxUPP,compRMQUPP, "Отправка сообщения")
+'BiRel_D(compRMQUPP,RMQ, "Обмен данными","RMQ")
+
+
+System_Boundary(RMQ, "Rabbit MQ") {
+    'ContainerDb(Nomenlature_Sert, "Области действия сертификатов номенклатуры", "Регистр сведений", "Содержит сведения о связи сертификатов и номенклатуры")
+
+    
+    Container(Exchanges, "Обмен", "Certificates", "Очередь обмена. Type = Topic")
+    
+    'ContainerDb(Nomenlature, "Номенклатура", "Справочник", "Содержит сведения о номенклатуре и данные для маршрутизации")
+    Container(Queues, "Очереди", "Идентификаторы баз приемников", "Имена баз приемников с прописанным ключамо маршрутизации (Префикс ИБ)")
+}
+Rel(Exchanges,Queues, "Машрутизация сообщений")
+Rel_D(Queues,compRMQ, "Обмен данными","RMQ")
+Rel_D(compRMQ,Exchanges, "Обмен данными","RMQ")
+Rel_D(Queues,compRMQUPP, "Обмен данными","RMQ")
+Rel_D(compRMQUPP,Exchanges, "Обмен данными","RMQ")
+@enduml

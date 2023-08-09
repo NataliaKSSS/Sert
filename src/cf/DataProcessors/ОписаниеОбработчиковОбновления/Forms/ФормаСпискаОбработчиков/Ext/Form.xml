@@ -772,6 +772,10 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.ВидыСравнения</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</HeaderPicture>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОбработчикиОбновленияИзмененаПроцедураПроверкиКонтекстноеМеню" id="263"/>
 					<ExtendedTooltip name="ОбработчикиОбновленияИзмененаПроцедураПроверкиРасширеннаяПодсказка" id="264"/>

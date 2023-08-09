@@ -57,7 +57,7 @@
 					<ExtendedTooltip name="НастройкиВыполненияЗамеровФлагиРасширеннаяПодсказка" id="46"/>
 					<ChildItems>
 						<CheckBoxField name="ВыполнятьЗамерыПроизводительностиВыполнятьЗамерыПроизводительности" id="37">
-							<Visible>false</Visible>
+							<DataPath>КонстантыНабор.ВыполнятьЗамерыПроизводительности</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыполнятьЗамерыПроизводительностиВыполнятьЗамерыПроизводительностиКонтекстноеМеню" id="38"/>
@@ -89,6 +89,7 @@
 					<ExtendedTooltip name="НастройкиВыполненияЗамеровИнфоРасширеннаяПодсказка" id="48"/>
 					<ChildItems>
 						<InputField name="КонстантыНаборОценкаПроизводительностиПериодЗаписи" id="58">
+							<DataPath>КонстантыНабор.ОценкаПроизводительностиПериодЗаписи</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -118,6 +119,7 @@
 							<ExtendedTooltip name="ДекорацияПередЗамеровВПакетеРасширеннаяПодсказка" id="66"/>
 						</LabelDecoration>
 						<InputField name="КонстантыНаборКоличествоЗамеровВПакетеЭкспорта" id="61">
+							<DataPath>КонстантыНабор.КоличествоЗамеровВПакетеЭкспорта</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -134,6 +136,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<InputField name="КонстантыНаборДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC" id="42">
+					<DataPath>КонстантыНабор.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<Title>
 						<v8:item>
@@ -170,6 +173,7 @@
 					<ExtendedTooltip name="НастройкиУдаленияЗамеровПериодРасширеннаяПодсказка" id="73"/>
 					<ChildItems>
 						<InputField name="КонстантыНаборПериодХраненияЗамеров" id="69">
+							<DataPath>КонстантыНабор.ПериодХраненияЗамеров</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>

@@ -14,6 +14,8 @@
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
 				<xr:Object>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</xr:Object>
+				<xr:Object>Report.АнализЖурналаРегистрации</xr:Object>
+				<xr:Object>DataProcessor.УправлениеИтогамиИАгрегатами</xr:Object>
 				<xr:Object>DataProcessor.АвтоматическоеИзвлечениеТекстов</xr:Object>
 				<xr:Object>DataProcessor.АвтоматическоеИзвлечениеТекстов.Command.АвтоматическоеИзвлечениеТекстов</xr:Object>
 			</Content>

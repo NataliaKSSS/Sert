@@ -802,12 +802,20 @@
 										<Button name="ТабличныйДокументВставитьСтрокиСверху" id="400">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertRowsTop</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ВставитьГруппировкуВыше</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументВставитьСтрокиСверхуРасширеннаяПодсказка" id="401"/>
 										</Button>
 										<Button name="ТабличныйДокументВставитьСтрокиСнизу" id="402">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertRowsBottom</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ВставитьГруппировкуНиже</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументВставитьСтрокиСнизуРасширеннаяПодсказка" id="403"/>
 										</Button>
@@ -831,12 +839,20 @@
 										<Button name="ТабличныйДокументВставитьКолонкиСлева" id="406">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertColumnsLeft</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ВставитьКолонкуСлева</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументВставитьКолонкиСлеваРасширеннаяПодсказка" id="407"/>
 										</Button>
 										<Button name="ТабличныйДокументВставитьКолонкиСправа" id="408">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertColumnsRight</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ВставитьКолонкуСправа</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументВставитьКолонкиСправаРасширеннаяПодсказка" id="409"/>
 										</Button>
@@ -906,12 +922,20 @@
 										<Button name="ТабличныйДокументВысотаСтрок" id="420">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RowHeight</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ВысотаСтроки</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументВысотаСтрокРасширеннаяПодсказка" id="421"/>
 										</Button>
 										<Button name="ТабличныйДокументШиринаКолонок" id="422">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ColumnWidth</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ШиринаКолонки</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТабличныйДокументШиринаКолонокРасширеннаяПодсказка" id="423"/>
 										</Button>
@@ -2287,6 +2311,10 @@
 					<v8:content>Повторять выбранные строки в начале страницы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПовторятьВНачалеСтраницы</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ПовторятьНаКаждойСтранице</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -2356,6 +2384,10 @@
 					<v8:content>Повторять выбранные строки в конце страницы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПовторятьВКонцеСтраницы</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ПовторятьВКонцеСтраницы</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -2373,6 +2405,10 @@
 					<v8:content>Выровнять текст по верхнему краю</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ВертикальноеПоложениеВерх</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ВыровнятьПоВерхнемуКраю</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -2390,6 +2426,10 @@
 					<v8:content>Выровнять текст по центру между верхней и нижней границей ячейки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ВертикальноеПоложениеЦентр</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ВыровнятьПоСередине</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -2407,6 +2447,10 @@
 					<v8:content>Выровнять текст по нижнему краю</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ВертикальноеПоложениеНиз</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Action>ВыровнятьПоНижнемуКраю</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>

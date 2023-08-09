@@ -324,7 +324,7 @@
 							<ChildItems>
 								<Button name="ОткрытьНастройкиСистемнойУчетнойЗаписиЭП" id="1302">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</CommandName>
+									<CommandName>0:085cbea9-1df1-4ee9-afb7-da2bf313697e</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьНастройкиСистемнойУчетнойЗаписиЭПExtendedTooltip" id="1659">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -355,7 +355,7 @@
 							<ChildItems>
 								<Button name="ОткрытьУчетныеЗаписиЭлектроннойПочты" id="1306">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</CommandName>
+									<CommandName>0:6b2340d7-687f-43a3-8eb8-8ddb86712466</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьУчетныеЗаписиЭлектроннойПочтыExtendedTooltip" id="1662">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -391,7 +391,7 @@
 			<ChildItems>
 				<Button name="ОбщаяФормаНастройкаОтправкиSMS" id="1619">
 					<Type>Hyperlink</Type>
-					<CommandName>CommonForm.НастройкаОтправкиSMS.StandardCommand.Open</CommandName>
+					<CommandName>100:38bf6d3b-5435-4bac-b9fc-23b80afeb760</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОбщаяФормаНастройкаОтправкиSMSExtendedTooltip" id="1665">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -626,7 +626,7 @@
 							<ChildItems>
 								<Button name="СправочникШаблоныСообщенийОткрытьСписок" id="1810">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ШаблоныСообщений.StandardCommand.OpenList</CommandName>
+									<CommandName>0:1e14d062-1d5a-4939-8ce6-4d9514990376</CommandName>
 									<ExtendedTooltip name="СправочникШаблоныСообщенийОткрытьСписокРасширеннаяПодсказка" id="1811"/>
 								</Button>
 							</ChildItems>

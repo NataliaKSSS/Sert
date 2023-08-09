@@ -159,7 +159,7 @@
 				<xr:Value name="Role.Продавец">false</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open">
+		<Command name="0:97888342-2969-4ab1-8923-04ef0c818e49">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -284,7 +284,7 @@
 		<Command name="DataProcessor.ПроведениеДокументов.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open">
+		<Command name="0:97888342-2969-4ab1-8923-04ef0c818e49">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.УправлениеАгрегатамиПродаж.StandardCommand.Open">

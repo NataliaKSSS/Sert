@@ -302,7 +302,7 @@
 					<ChildItems>
 						<Button name="ЗагрузкаДанныхEnterpriseData" id="2071">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.Command.ЗагрузкаДанныхEnterpriseData</CommandName>
+							<CommandName>0:2e0b331d-92d4-4250-94c6-9ced8cdcb1e4</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -439,7 +439,7 @@
 			<ChildItems>
 				<Button name="ОбработкаНастройкаСтандартногоИнтерфейсаODataНастройкаСтандартногоИнтерфейсаOData" id="2078">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.Command.НастройкиСтандартногоИнтерфейсаOData</CommandName>
+					<CommandName>0:33fa908a-5516-43c8-94d3-28c60eba8d66</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОбработкаНастройкаСтандартногоИнтерфейсаODataНастройкаСтандартногоИнтерфейсаODataРасширеннаяПодсказка" id="2079">
 						<Title formatted="false">

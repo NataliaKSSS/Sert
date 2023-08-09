@@ -1,0 +1,26 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "Схема работы подсистемы обмена сертификатами"
+
+
+System(Master_base, "Мастер база", "Мастер база НСИ")
+
+System(UPP, "Рабочие базы ДК", "Оперативный контур")
+'System(UPP1, "Рабочая база ДК 2", "Рабочая база ДК")
+System_Ext(RMQ, "RMQ", "Rabbit MQ")
+System_Ext(ImageFolder, "Файловый сервер", "Хранение изображений сертификатов")
+Person(customerGK, "Отдел сертификации", "Сотрудник головной компании")
+Person(customerDK, "Отдел продаж", "Сотрудник дочерней компании")
+BiRel_D(customerGK, Master_base, "Внесение/печать реестров и изображений сертификатов")
+BiRel_D(customerDK, UPP, "Внесение/печать реестров и изображений сертификатов")
+BiRel_D(UPP, RMQ, "Обмен данными сертификатов", "RMQ")
+BiRel_D(Master_base, RMQ, "Обмен данными сертификатов", "RMQ")
+Rel_R(Master_base, ImageFolder, "Сохранение изображения")
+Rel_L(UPP, ImageFolder, "Сохранение изображения")
+
+@enduml

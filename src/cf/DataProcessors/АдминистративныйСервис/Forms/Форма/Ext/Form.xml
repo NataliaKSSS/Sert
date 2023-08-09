@@ -24,7 +24,7 @@
 		<Button name="УдалениеПомеченныхОбъектов" id="5">
 			<Type>Hyperlink</Type>
 			<SkipOnInput>false</SkipOnInput>
-			<CommandName>DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open</CommandName>
+			<CommandName>0:97888342-2969-4ab1-8923-04ef0c818e49</CommandName>
 			<TextColor>style:ButtonTextColor</TextColor>
 			<BackColor>style:ButtonBackColor</BackColor>
 			<BorderColor>style:BorderColor</BorderColor>

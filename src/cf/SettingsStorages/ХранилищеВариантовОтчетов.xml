@@ -16,14 +16,27 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаСохранения</DefaultSaveForm>
-			<DefaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаЗагрузки</DefaultLoadForm>
+			<DefaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета</DefaultSaveForm>
+			<DefaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ВыборВариантаОтчета</DefaultLoadForm>
 			<AuxiliarySaveForm/>
 			<AuxiliaryLoadForm/>
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаСохранения</Form>
 			<Form>ФормаЗагрузки</Form>
+			<Form>БыстрыеНастройкиОтчета</Form>
+			<Form>ВыборВариантаОтчета</Form>
+			<Form>ВыборПоляОтчета</Form>
+			<Form>ВыборФинансовогоПериода</Form>
+			<Form>ВыборФинансовогоПериодаДень</Form>
+			<Form>ГруппаВыбранныхПолей</Form>
+			<Form>НастройкаПоля</Form>
+			<Form>ПанельДругихОтчетов</Form>
+			<Form>СохранениеВариантаОтчета</Form>
+			<Form>СохранениеВариантаОтчетаВФайл</Form>
+			<Form>УсловияОтборовОтчета</Form>
+			<Form>ФильтроватьПоПолю</Form>
+			<Form>ЭлементУсловногоОформленияОтчета</Form>
 		</ChildObjects>
 	</SettingsStorage>
 </MetaDataObject>

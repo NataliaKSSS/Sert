@@ -40,7 +40,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПроведениеДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СписокАктивныхПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЖурналРегистрации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УдалениеПомеченныхОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">97888342-2969-4ab1-8923-04ef0c818e49</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеНастройкамиФорм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Характеристики</xr:Item>

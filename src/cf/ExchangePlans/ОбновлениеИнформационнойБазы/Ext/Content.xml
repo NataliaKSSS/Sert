@@ -13,7 +13,23 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.ВариантыОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПрофилиКлючевыхОпераций</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.НомераОтсканированныхФайлов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.ПериодХраненияЗамеров</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ЗамерыВремени</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -29,6 +45,14 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ВыполнятьЗамерыПроизводительности</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -38,6 +62,18 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ПрогрессОбновления</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.КлючевыеОперации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.СнимкиОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПредопределенныеВариантыОтчетовРасширений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -81,7 +117,15 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ВерсииПодсистем</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПользовательскиеНастройкиОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -90,6 +134,10 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ИзвлекатьТекстыФайловНаСервере</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.КоличествоЗамеровВПакетеЭкспорта</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -117,11 +165,19 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ПользовательскиеМакетыПечати</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ДлительныеОперации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.УдалитьЗамерыВремени3</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -141,11 +197,23 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.НастройкиКомандПечати</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.НеИспользоватьРазделениеПоОбластямДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Constant.СведенияОБлокируемыхОбъектах</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПредопределенныеВариантыОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.ОценкаПроизводительностиПериодЗаписи</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -189,6 +257,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.НастройкиКолонтитулов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.ИспользоватьГруппыПользователей</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -202,6 +274,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ПериодическиеСерверныеОповещения</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.НастройкиВариантовОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -221,6 +297,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ЗамерыВремениТехнологические</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.ИспользоватьРазделениеПоОбластямДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -233,6 +313,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ОбщиеПоставляемыеМакетыПечати</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.КоличествоПотоковОбновленияИнформационнойБазы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -242,6 +326,14 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ТомаХраненияФайлов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ВерсииПодсистемОбластейДанных</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.МакетыПечатныхФорм</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -290,6 +382,10 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ИдентификаторИнформационнойБазы</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ПоставляемыеМакетыПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
