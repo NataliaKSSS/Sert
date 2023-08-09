@@ -244,7 +244,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:CatalogRef.Товары</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

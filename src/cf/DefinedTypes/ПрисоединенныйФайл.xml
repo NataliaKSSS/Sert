@@ -18,6 +18,7 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+				<v8:Type>cfg:CatalogRef.СертификатыНоменклатурыПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВерсииФайлов</v8:Type>
 			</Type>
 		</Properties>

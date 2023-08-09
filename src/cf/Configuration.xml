@@ -334,7 +334,6 @@
 			<StyleItem>ШрифтВажнойИнформации</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<StyleItem>ДобавленныйРеквизитФон</StyleItem>
-			<StyleItem>ШрифтВажнойИнформации</StyleItem>
 			<StyleItem>ЗаблокированныйРеквизитЦвет</StyleItem>
 			<StyleItem>ЦветТекстаСущественныхИзмененийДанных</StyleItem>
 			<StyleItem>ЗаголовокУдаленногоРеквизитаШрифт</StyleItem>
@@ -409,8 +408,6 @@
 			<CommonPicture>ГраницаВокруг</CommonPicture>
 			<CommonPicture>ГраницаСверху</CommonPicture>
 			<CommonPicture>ГраницаСлева</CommonPicture>
-			<CommonPicture>ШтрихКод</CommonPicture>
-			<CommonPicture>ПодсистемаЗакупки</CommonPicture>
 			<CommonPicture>ГраницаСнизу</CommonPicture>
 			<CommonPicture>ПодсистемаТоварныеЗапасы</CommonPicture>
 			<CommonPicture>ГраницаСправа</CommonPicture>
@@ -426,7 +423,6 @@
 			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
 			<CommonPicture>Закрепить</CommonPicture>
 			<CommonPicture>ЗанятьФайл</CommonPicture>
-			<CommonPicture>СписокЗаказов</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ЗаставкаВнешнейОперации</CommonPicture>
 			<CommonPicture>Зашифрован</CommonPicture>
@@ -439,7 +435,6 @@
 			<CommonPicture>ИерархическийСписок</CommonPicture>
 			<CommonPicture>ИзменитьШрифт</CommonPicture>
 			<CommonPicture>Информация32</CommonPicture>
-			<CommonPicture>ПодсистемаТоварныеЗапасы</CommonPicture>
 			<CommonPicture>ИнформацияПоНедоступнымПолям</CommonPicture>
 			<CommonPicture>ИспользованиеМакета</CommonPicture>
 			<CommonPicture>ИспользоватьПользовательскийМакет</CommonPicture>
@@ -448,12 +443,8 @@
 			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
 			<CommonPicture>КоллекцияВидыАктивныхПользователей</CommonPicture>
 			<CommonPicture>КоллекцияВидыСобытийЖурналаРегистрации</CommonPicture>
-			<CommonPicture>ВыделитьВажное</CommonPicture>
-			<CommonPicture>ПолнотекстовыйПоискНазад</CommonPicture>
 			<CommonPicture>КоллекцияДляПомеченныхНаУдалениеОбъектов</CommonPicture>
-			<CommonPicture>ОткрытьХранимыйФайл</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
-			<CommonPicture>ПодсистемаФинансы</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммЭлементов</CommonPicture>
 			<CommonPicture>КоллекцияСкрепка</CommonPicture>
 			<CommonPicture>Комментарий</CommonPicture>
@@ -462,7 +453,6 @@
 			<CommonPicture>МестоДляQRКода</CommonPicture>
 			<CommonPicture>МестоДляКартинки</CommonPicture>
 			<CommonPicture>МестоДляШтрихкода</CommonPicture>
-			<CommonPicture>NFC</CommonPicture>
 			<CommonPicture>МетаданныеHTTPСервисы</CommonPicture>
 			<CommonPicture>МетаданныеHTTPСервисыШаблоныURL</CommonPicture>
 			<CommonPicture>МетаданныеHTTPСервисыШаблоныURLМетоды</CommonPicture>
@@ -603,7 +593,7 @@
 			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
 			<CommonPicture>Пустая</CommonPicture>
 			<CommonPicture>РабочийКаталогПоУмолчанию</CommonPicture>
-			<CommonPicture>ВажностьНеЗадана</CommonPicture>
+			<CommonPicture>РазделАдминистрирование</CommonPicture>
 			<CommonPicture>РазделАдминистрирование48</CommonPicture>
 			<CommonPicture>РазорватьСоединение</CommonPicture>
 			<CommonPicture>Рассчитать</CommonPicture>
@@ -709,7 +699,6 @@
 			<CommonPicture>УдалитьИнформация</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>ЯщикIMAP</SessionParameter>
-			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
 			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
@@ -723,6 +712,7 @@
 			<SessionParameter>ПараметрыОбработчикаОбновления</SessionParameter>
 			<SessionParameter>ПодключенныеРасширения</SessionParameter>
 			<SessionParameter>ТекущийВнешнийПользователь</SessionParameter>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
@@ -765,7 +755,6 @@
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиРегистрСимволов</CommonTemplate>
 			<CommonTemplate>ДрайверСканераШтрихкодов</CommonTemplate>
-			<CommonTemplate>КомпонентаПечатиШтрихкодовWindows64</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовLinux32</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовLinux64</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиШтрихкодовWindows32</CommonTemplate>
@@ -817,8 +806,6 @@
 			<CommonModule>ИнтеграцияПодсистемБСП</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиентПовтИсп</CommonModule>
-			<CommonModule>РаботаСИсториейДанных</CommonModule>
-			<CommonModule>ГлобальныйПоискКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСППовтИсп</CommonModule>
 			<CommonModule>НастройкиПрограммы</CommonModule>
 			<CommonModule>НастройкиПрограммыКлиент</CommonModule>
@@ -864,6 +851,8 @@
 			<CommonModule>ВариантыОтчетовСлужебныйКлиент</CommonModule>
 			<CommonModule>ВариантыОтчетовСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ПодсистемыКонфигурацииПереопределяемый</CommonModule>
+			<CommonModule>РаботаСПолнотекстовымПоиском</CommonModule>
+			<CommonModule>Пользователи</CommonModule>
 			<CommonModule>ПользователиКлиент</CommonModule>
 			<CommonModule>ПользователиКлиентСервер</CommonModule>
 			<CommonModule>ПользователиПереопределяемый</CommonModule>
@@ -972,16 +961,14 @@
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
 			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ОбработкаПроверкиЗаполненияПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>СкопироватьРеквизитыВерсииФайловВФайл</EventSubscription>
-			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайлов</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
+			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ЗапретитьПометкуУдаленияПредопределенныхЭлементов</EventSubscription>
 			<EventSubscription>ЗапретитьУдалениеПредопределенныхЭлементов</EventSubscription>
 			<EventSubscription>ОбновитьВнешнегоПользователя</EventSubscription>
 			<EventSubscription>ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</EventSubscription>
+			<EventSubscription>ОбработкаПроверкиЗаполненияПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхГлавному</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
@@ -995,12 +982,13 @@
 			<ScheduledJob>ОбработкаБотов</ScheduledJob>
 			<ScheduledJob>ПерестроениеАгрегатовПродаж</ScheduledJob>
 			<ScheduledJob>НеотработанныеЗаказы</ScheduledJob>
-<<<<<<< HEAD
 			<ScheduledJob>ОбновлениеИндексаППД</ScheduledJob>
-			<ScheduledJob>ОбработкаСервисовИнтеграции</ScheduledJob>
+			<ScheduledJob>ОбновлениеПредопределенныхВариантовОтчетов</ScheduledJob>
 			<ScheduledJob>ОбновлениеАгрегатовПродаж</ScheduledJob>
+			<ScheduledJob>ОбработкаСервисовИнтеграции</ScheduledJob>
 			<ScheduledJob>ОтложенноеОбновлениеИБ</ScheduledJob>
 			<ScheduledJob>ОтправкаСерверныхОповещенийКлиентам</ScheduledJob>
+			<ScheduledJob>ОчисткаЗамеровВремени</ScheduledJob>
 			<ScheduledJob>ОчисткаНенужныхФайлов</ScheduledJob>
 			<ScheduledJob>ОчисткаУстаревшихДанных</ScheduledJob>
 			<ScheduledJob>СинхронизацияФайлов</ScheduledJob>
@@ -1017,6 +1005,7 @@
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
+			<FunctionalOption>ИспользоватьСинхронизациюФайлов</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>РаботаВЛокальномРежиме</FunctionalOption>
@@ -1024,6 +1013,7 @@
 			<FunctionalOption>СтандартныеПодсистемыВАвтономномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
+			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
 			<FunctionalOptionsParameter>Организация</FunctionalOptionsParameter>
 			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
@@ -1034,10 +1024,13 @@
 			<DefinedType>Организация</DefinedType>
 			<DefinedType>Подразделение</DefinedType>
 			<DefinedType>Пользователь</DefinedType>
+			<DefinedType>ПрисоединенныйФайл</DefinedType>
+			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
 			<DefinedType>ВариантОбновляемогоОтчета</DefinedType>
 			<Bot>ОфисМенеджер</Bot>
 			<CommonCommand>АвтономнаяРабота</CommonCommand>
+			<CommonCommand>АвтономнаяРаботаВМоделиСервиса</CommonCommand>
 			<CommonCommand>ВремяТекущегоСеанса</CommonCommand>
 			<CommonCommand>УстановитьВидимостьОбъектовЧерезODataAPI</CommonCommand>
 			<CommonCommand>ОбщиеНастройки</CommonCommand>
@@ -1054,7 +1047,7 @@
 			<CommonCommand>ПанельОтчетовАдминистрирование</CommonCommand>
 			<CommonCommand>УстановитьРасширениеРаботыСФайлами</CommonCommand>
 			<CommonCommand>ПредупрежденияПриЗавершенииРаботы</CommonCommand>
-			<CommonCommand>НастроитьСканерШтрихКодов</CommonCommand>
+			<CommonCommand>ПредупрежденияПриСинхронизацииДанных</CommonCommand>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommonCommand>РазместитьФайлыНачальногоОбраза</CommonCommand>
 			<CommonCommand>РедактируемыеФайлы</CommonCommand>
@@ -1064,15 +1057,8 @@
 			<CommonCommand>СозданиеНачальногоОбразаСФайлами</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
-			<CommonCommand>ДобавитьПользователейСервиса</CommonCommand>
-			<CommonCommand>ДополнительныеОбработкиАдминистрирование</CommonCommand>
-			<CommonCommand>ДополнительныеОтчетыАдминистрирование</CommonCommand>
-			<CommonCommand>НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</CommonCommand>
-			<CommonCommand>НастройкиСинхронизацииДанных</CommonCommand>
-			<CommonCommand>НастройкиСинхронизацииДанныхВМоделиСервиса</CommonCommand>
-			<CommonCommand>ПанельОтчетовАдминистрирование</CommonCommand>
-			<CommonCommand>ПредупрежденияПриСинхронизацииДанных</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
+			<CommandGroup>Органайзер</CommandGroup>
 			<CommandGroup>Печать</CommandGroup>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
 			<Constant>АдресSMTPСервера</Constant>
@@ -1124,9 +1110,10 @@
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
 			<Constant>ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</Constant>
 			<Constant>ЗаголовокСистемы</Constant>
+			<Constant>ВыборПровайдераГеопозиционирования</Constant>
+			<Constant>SSLPOP3</Constant>
 			<Constant>ЗапрещатьЗагрузкуФайловПоРасширению</Constant>
 			<Constant>ИдентификаторИнформационнойБазы</Constant>
-			<Constant>SSLPOP3</Constant>
 			<Constant>ИзвлекатьТекстыФайловНаСервере</Constant>
 			<Constant>ИспользоватьВнешнихПользователей</Constant>
 			<Constant>ИспользоватьГруппыВнешнихПользователей</Constant>
@@ -1135,9 +1122,11 @@
 			<Constant>КодНовогоУзлаПланаОбмена</Constant>
 			<Constant>КаталогВременныхФайловДляLinux</Constant>
 			<Constant>КаталогВременныхФайловДляWindows</Constant>
-			<Constant>КодНовогоУзлаПланаОбмена</Constant>
+			<Constant>КоличествоЗамеровВПакетеЭкспорта</Constant>
 			<Constant>КоличествоПотоковДлительныхОпераций</Constant>
 			<Constant>КоличествоПотоковОбновленияИнформационнойБазы</Constant>
+			<Constant>МаксимальныйРазмерФайла</Constant>
+			<Constant>МаксимальныйРазмерФайлаОбластиДанных</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
 			<Constant>НастройкиКолонтитулов</Constant>
 			<Constant>НеИспользоватьРазделениеПоОбластямДанных</Constant>
@@ -1147,17 +1136,28 @@
 			<Constant>ОценкаПроизводительностиПериодЗаписи</Constant>
 			<Constant>ПараметрыАдминистрированияИБ</Constant>
 			<Constant>ПараметрыХраненияФайловВИБ</Constant>
+			<Constant>ПериодХраненияЗамеров</Constant>
 			<Constant>ПорядокОбрабатываемыхДанных</Constant>
+			<Constant>ПутьКТомуБезУчетаРегиональныхНастроек</Constant>
 			<Constant>РегистрироватьПоказателиСерверныхОповещений</Constant>
+			<Constant>РежимОчисткиФайлов</Constant>
 			<Constant>СведенияОБлокируемыхОбъектах</Constant>
 			<Constant>СведенияОбОбновленииИБ</Constant>
+			<Constant>СинхронизироватьФайлы</Constant>
+			<Constant>СоздаватьПодкаталогиСИменамиВладельцев</Constant>
 			<Constant>СостояниеОтправкиСерверныхОповещений</Constant>
-=======
->>>>>>> parent of a889179 (Добавление Сертификатов и подсистем с ними работающих)
 			<Constant>СписокЗапрещенныхРасширений</Constant>
 			<Constant>СписокЗапрещенныхРасширенийОбластиДанных</Constant>
 			<Constant>СписокРасширенийТекстовыхФайлов</Constant>
+			<Constant>TrierRabbitMQАдресПодключения</Constant>
+			<Constant>TrierRabbitMQПорт</Constant>
+			<Constant>TrierRabbitMQЛогин</Constant>
+			<Constant>TrierRabbitMQПароль</Constant>
+			<Constant>TrierRabbitMQВиртуальныйХост</Constant>
+			<Constant>TrierRabbitMQИдентификаторБазы</Constant>
+			<Constant>TrierRabbitMQИспользоватьОбменСКроликом</Constant>
 			<Constant>СписокРасширенийФайловOpenDocument</Constant>
+			<Constant>ТочкаОбменаСертификатами</Constant>
 			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
 			<Constant>СпособХраненияФайлов</Constant>
 			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
@@ -1184,9 +1184,7 @@
 			<CommonForm>ВыборТиповПользователей</CommonForm>
 			<CommonForm>ВыборУзловПлановОбмена</CommonForm>
 			<CommonForm>ВыборФорматаВложений</CommonForm>
-			<CommonForm>НастройкиМобильногоУстройства</CommonForm>
 			<CommonForm>ГруппыПользователей</CommonForm>
-			<CommonForm>НастройкаПочты</CommonForm>
 			<CommonForm>ДлительнаяОперация</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
 			<CommonForm>КонтрольИзмененияРолейПользователяИБ</CommonForm>
@@ -1233,8 +1231,8 @@
 			<Catalog>ПочтовыеВложения</Catalog>
 			<Catalog>РасчетныеСчета</Catalog>
 			<Catalog>РасчетныеСчетаКонтрагентов</Catalog>
-			<Catalog>Организации</Catalog>
-			<Catalog>Пользователи</Catalog>
+			<Catalog>ВнешниеПользователи</Catalog>
+			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ИсходящиеПисьма</Catalog>
 			<Catalog>ХранилищеВариантовОтчетов</Catalog>
 			<Catalog>Встречи</Catalog>
@@ -1258,6 +1256,7 @@
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
 			<Catalog>ПрофилиКлючевыхОпераций</Catalog>
 			<Catalog>ТомаХраненияФайлов</Catalog>
+			<Catalog>ГруппыДоступаНоменклатуры</Catalog>
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Document>Заказ</Document>
@@ -1292,7 +1291,7 @@
 			<Enum>РежимыОчисткиФайлов</Enum>
 			<Enum>СпособыОткрытияФайлаНаПросмотр</Enum>
 			<Enum>СпособыПоворотаИзображения</Enum>
-			<Enum>ВидыТоваров</Enum>
+			<Enum>СпособыРедактированияЭлектронныхПисем</Enum>
 			<Enum>СпособыСравненияВерсийФайлов</Enum>
 			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
 			<Enum>СтатусыОбработчиковОбновления</Enum>
@@ -1303,7 +1302,7 @@
 			<Enum>TrierRabbitMQПеречислениеНаправленияСинхронизации</Enum>
 			<Enum>УровниПроизводительности</Enum>
 			<Enum>ФорматыСканированногоИзображения</Enum>
-			<Enum>ВариантыСжатияTIFF</Enum>
+			<Enum>ФорматыСохраненияОтчетов</Enum>
 			<Enum>ФорматыХраненияМногостраничныхФайлов</Enum>
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветностиИзображения</Enum>
@@ -1316,25 +1315,12 @@
 			<Report>АнализЗаказов</Report>
 			<Report>ОстаткиТоваровНаСкладахМобильный</Report>
 			<Report>ДашбордПродажи</Report>
-			<Report>ДатыЗапретаИзменения</Report>
-			<Report>ДлительностьОтложенногоОбновления</Report>
-			<Report>ИспользуемыеВнешниеРесурсы</Report>
 			<Report>ОбъемНенужныхФайлов</Report>
 			<Report>ОценкаПроизводительности</Report>
 			<Report>ПроверкаЦелостностиТома</Report>
 			<Report>ДинамикаПродаж</Report>
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
-			<Report>ПроверкаЦелостностиТома</Report>
-			<Report>АнализЖурналаРегистрации</Report>
-			<Report>АнализПравДоступа</Report>
-			<Report>ДатыЗапретаЗагрузки</Report>
-			<Report>ДатыЗапретаИзменения</Report>
-			<Report>ИспользуемыеВнешниеРесурсы</Report>
-			<Report>ОценкаПроизводительности</Report>
-			<Report>ПраваРолей</Report>
-			<Report>ПродлениеСрокаДействияЭлектронныхПодписей</Report>
-			<Report>РезультатыПроверкиУчета</Report>
 			<Report>УниверсальныйОтчет</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>ПроведениеДокументов</DataProcessor>
@@ -1344,10 +1330,11 @@
 			<DataProcessor>ДемонстрацияВозможностейДиаграмм</DataProcessor>
 			<DataProcessor>УправлениеАгрегатамиПродаж</DataProcessor>
 			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
+			<DataProcessor>УправлениеПолнотекстовымПоиском</DataProcessor>
+			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ЭлектроннаяПочта</DataProcessor>
 			<DataProcessor>НастройкиПользователя</DataProcessor>
 			<DataProcessor>АдминистративныйСервис</DataProcessor>
-			<DataProcessor>НастройкаСтандартногоИнтерфейсаOData</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>ОписаниеОбработчиковОбновления</DataProcessor>
@@ -1360,6 +1347,10 @@
 			<DataProcessor>Сканирование</DataProcessor>
 			<DataProcessor>УправлениеНастройкамиФорм</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
+			<DataProcessor>УправлениеСистемойВзаимодействия</DataProcessor>
+			<DataProcessor>ПримерРаботыСКомпонентойPinkRabbitMQ</DataProcessor>
+			<DataProcessor>УстановкаНачальныхНастроекСинхронизацииСертификатов</DataProcessor>
+			<DataProcessor>ВыгрузкаЗагрузкаДанныхXML</DataProcessor>
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>

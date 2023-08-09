@@ -44,14 +44,14 @@ It includes objects which belong to the TM11, CA2 and EM2 configurations.</v8:co
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметрыОбработчикаОбновления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбновлениеИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ВыполнитьДействияПриЗаписиПрисоединенногоФайла</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fc59acc3-f1f7-4e3f-96da-e580f2c5a88f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ШтрихКод</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПодсистемаЗакупки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПодсистемаФинансы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияУТКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НоменклатураКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НоменклатураСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрайсЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c4425226-a604-4cfc-8ada-a5adc6382c21</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветТекстаНевыбраннойКартинки</xr:Item>
@@ -61,7 +61,7 @@ It includes objects which belong to the TM11, CA2 and EM2 configurations.</v8:co
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоПотоковОбновленияИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СобытияФорм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияУТСобытия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1e14d062-1d5a-4939-8ce6-4d9514990376</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СертификатыНоменклатурыПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбластиДействияСертификатовНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ИтогиФонГруппы</xr:Item>
@@ -69,8 +69,8 @@ It includes objects which belong to the TM11, CA2 and EM2 configurations.</v8:co
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтрелкаВправоЗеленая</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOptionsParameter.Организация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПравилаПроверкиУчета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПодключаемыеКомандыЛокализация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">55bce105-51c0-452e-9eec-b960fe740db2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">31d01dfb-a043-43ac-8a19-44cc41702148</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПользователиПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НоменклатураКлиентЛокализация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НоменклатураКлиентСерверЛокализация</xr:Item>

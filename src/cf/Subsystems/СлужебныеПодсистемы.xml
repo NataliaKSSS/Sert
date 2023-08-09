@@ -30,7 +30,9 @@ It is intended to separate metadata of the TM11, CA2 and EM2 configurations.</v8
 				</v8:item>
 			</Explanation>
 			<Picture/>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаЗагрузкаДанныхXML</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>ОбъектыУТКАУП</Subsystem>
