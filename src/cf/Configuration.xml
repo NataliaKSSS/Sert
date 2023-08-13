@@ -932,7 +932,7 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиент</CommonModule>
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
-			<CommonModule>RabbitMQРегламентныеЗадания</CommonModule>
+			<CommonModule>RabbitMQРегламентныеЗаданияСервер</CommonModule>
 			<CommonModule>ОценкаПроизводительности</CommonModule>
 			<CommonModule>ОценкаПроизводительностиВызовСервера</CommonModule>
 			<CommonModule>ОценкаПроизводительностиВызовСервераПовтИсп</CommonModule>
